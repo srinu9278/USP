@@ -1,0 +1,114 @@
+apiiit-rkv@localhost:~/cse/secb$ rm s1
+apiiit-rkv@localhost:~/cse/secb$ ls
+s2
+apiiit-rkv@localhost:~/cse/secb$ rm s2
+apiiit-rkv@localhost:~/cse/secb$ ls
+apiiit-rkv@localhost:~/cse/secb$ cat s1 s2
+cat: s1: No such file or directory
+cat: s2: No such file or directory
+apiiit-rkv@localhost:~/cse/secb$ cat >srinu
+hii 
+i am from kurnoo
+apiiit-rkv@localhost:~/cse/secb$ cat srinu
+hii
+i am from kurnoo
+apiiit-rkv@localhost:~/cse/secb$ rm srinu
+apiiit-rkv@localhost:~/cse/secb$ ls
+apiiit-rkv@localhost:~/cse/secb$ cat >a1
+hii   
+hello tinnara
+apiiit-rkv@localhost:~/cse/secb$ cat >a2
+yaa
+tinnanu nuvvu tinnava
+apiiit-rkv@localhost:~/cse/secb$ cat s1 s2
+cat: s1: No such file or directory
+cat: s2: No such file or directory
+apiiit-rkv@localhost:~/cse/secb$ cat a1 a2
+hii
+hello tinnara
+yaa
+tinnanu nuvvu tinnava
+apiiit-rkv@localhost:~/cse/secb$ cat -b a1 a2
+     1	hii
+     2	hello tinnara
+     3	yaa
+     4	tinnanu nuvvu tinnava
+apiiit-rkv@localhost:~/cse/secb$ cat >>a1
+aa just now tinna
+apiiit-rkv@localhost:~/cse/secb$ cat a1
+hii
+hello tinnara
+aa just now tinna
+apiiit-rkv@localhost:~/cse/secb$ cat -n a1
+     1	hii
+     2	hello tinnara
+     3	aa just now tinna
+apiiit-rkv@localhost:~/cse/secb$ cat -n a1 a2
+     1	hii
+     2	hello tinnara
+     3	aa just now tinna
+     4	yaa
+     5	tinnanu nuvvu tinnava
+apiiit-rkv@localhost:~/cse/secb$ cat >>a1
+
+
+
+
+
+
+apiiit-rkv@localhost:~/cse/secb$ cat a1
+hii
+hello tinnara
+aa just now tinna
+
+
+
+
+
+
+apiiit-rkv@localhost:~/cse/secb$ cat -n a1
+     1	hii
+     2	hello tinnara
+     3	aa just now tinna
+     4	
+     5	
+     6	
+     7	
+     8	
+     9	
+apiiit-rkv@localhost:~/cse/secb$ cat -b a1
+     1	hii
+     2	hello tinnara
+     3	aa just now tinna
+
+
+
+
+
+
+apiiit-rkv@localhost:~/cse/secb$ cat -n a1 a2
+     1	hii
+     2	hello tinnara
+     3	aa just now tinna
+     4	
+     5	
+     6	
+     7	
+     8	
+     9	
+    10	yaa
+    11	tinnanu nuvvu tinnava
+apiiit-rkv@localhost:~/cse/secb$ cat -b a1 a2
+     1	hii
+     2	hello tinnara
+     3	aa just now tinna
+
+
+
+
+
+
+     4	yaa
+     5	tinnanu nuvvu tinnava
+apiiit-rkv@localhost:~/cse/secb$ 
+

@@ -1,0 +1,25 @@
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%b,%D
+Mar,03/04/23
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%u,%D
+6,03/04/23
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%d,%D
+04,03/04/23
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%A,%D
+Saturday,03/04/23
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%a,%D
+Sat,03/04/23
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%A,%m,%d,%Y
+Saturday,03,04,2023
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%A,%B,%d,%Y
+Saturday,March,04,2023
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date %A
+date: invalid date ‘%A’
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%A
+Saturday
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%B
+March
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%Y
+2023
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ^C
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+

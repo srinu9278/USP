@@ -1,0 +1,564 @@
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  Public   s2      snap        Untitled.ipynb
+Desktop    Music      R180610  s3      Templates   Videos
+Documents  Pictures   s1       s4.txt  typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -ix
+8784960 cse     4587593 Desktop    4587597 Documents   4587594 Downloads
+4587598 Music   4587599 Pictures   4587596 Public      4588138 R180610
+4588134 s1      4588147 s2         4588144 s3          4588150 s4.txt
+7737065 snap    4587595 Templates  4588128 typescript  4588135 Untitled.ipynb
+4587600 Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -lx
+cse         Desktop         Documents  Downloads  Music   Pictures  Public
+R180610     s1              s2         s3         s4.txt  snap      Templates
+typescript  Untitled.ipynb  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -it
+4588138 R180610  8784960 cse             4587599 Pictures   4587596 Public
+4588150 s4.txt   4588128 typescript      7737065 snap       4587595 Templates
+4588144 s3       4587593 Desktop         4587600 Videos
+4588134 s1       4588135 Untitled.ipynb  4587597 Documents
+4588147 s2       4587594 Downloads       4587598 Music
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  Public   s2      snap        Untitled.ipynb
+Desktop    Music      R180610  s3      Templates   Videos
+Documents  Pictures   s1       s4.txt  typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -d
+.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -ld
+drwxr-xr-x 19 rgukt123 rgukt123 4096 Mar  2 14:56 .
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -nd
+drwxr-xr-x 19 1000 1000 4096 Mar  2 14:56 .
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ exit
+exit
+
+Script done on 2023-03-02 15:13:07+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-03-02 15:22:40+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ script -v
+script: invalid option -- 'v'
+Try 'script --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ login
+login: Cannot possibly work without effective root
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ sudo login
+[sudo] password for rgukt123: 
+rgukt123-HP-245-G6-Notebook-PC login: exit
+Password: 
+
+Login incorrect
+rgukt123-HP-245-G6-Notebook-PC login: logout
+Password: 
+
+Login incorrect
+rgukt123-HP-245-G6-Notebook-PC login: 
+Login timed out after 60 seconds.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ passwd
+Changing password for rgukt123.
+Current password: 
+New password: 
+Retype new password: 
+Password unchanged
+New password: 
+Retype new password: 
+Password unchanged
+New password: 
+Retype new password: 
+passwd: password updated successfully
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ passwd
+Changing password for rgukt123.
+Current password: 
+New password: 
+Retype new password: 
+passwd: password updated successfully
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ login -f
+login: Cannot possibly work without effective root
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ login -v
+login: Cannot possibly work without effective root
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ login --help
+login: Cannot possibly work without effective root
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ who
+rgukt123 :0           2023-03-02 14:25 (:0)
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ whoiam
+whoiam: command not found
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ whoami
+rgukt123
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ who -u
+rgukt123 :0           2023-03-02 14:25   ?          1499 (:0)
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ who -uH
+NAME     LINE         TIME             IDLE          PID COMMENT
+rgukt123 :0           2023-03-02 14:25   ?          1499 (:0)
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ who -m -H
+NAME     LINE         TIME             COMMENT
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ who -a
+           system boot  2023-03-02 14:24
+           run-level 5  2023-03-02 14:25
+rgukt123 ? :0           2023-03-02 14:25   ?          1499 (:0)
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ who -all
+           system boot  2023-03-02 14:24
+           run-level 5  2023-03-02 14:25
+rgukt123 ? :0           2023-03-02 14:25   ?          1499 (:0)
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ who -p -H
+NAME     LINE         TIME                    PID COMMENT
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ who -T -H
+NAME       LINE         TIME             COMMENT
+rgukt123 ? :0           2023-03-02 14:25 (:0)
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ who -d -H
+NAME     LINE         TIME             IDLE          PID COMMENT  EXIT
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ who -l -H
+NAME     LINE         TIME             IDLE          PID COMMENT
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ w
+ 15:32:16 up  1:08,  1 user,  load average: 0.17, 0.44, 0.34
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rgukt123 :0       :0               14:25   ?xdm?   2:38   0.01s /usr/lib/gdm3/g
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ id
+uid=1000(rgukt123) gid=1000(rgukt123) groups=1000(rgukt123),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),120(lpadmin),132(lxd),133(sambashare)
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  Public   s2      snap        Untitled.ipynb
+Desktop    Music      R180610  s3      Templates   Videos
+Documents  Pictures   s1       s4.txt  typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv s2 s1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s2
+cat: s2: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s1
+hii
+i am fine
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv s1 s3
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s1
+cat: s1: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s3
+hii
+i am fine
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv s3 s4.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s4.txt
+hii
+i am fine
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s3
+cat: s3: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv s4.txt s5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s5
+hii
+i am fine
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mkdir move
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse      Documents  move   Pictures  R180610  snap       typescript      Videos
+Desktop  Downloads  Music  Public    s5       Templates  Untitled.ipynb
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >s1
+hii hello
+i am s1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$  cat s1
+hii hello
+i am s1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >s2
+hiii
+i am s2
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s2
+hiii
+i am s2
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s1 s2 s4.txt move
+hii hello
+i am s1
+hiii
+i am s2
+cat: s4.txt: No such file or directory
+cat: move: Is a directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv s1 s2 s4.txt mv
+mv: target 'mv' is not a directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv s1 s2 s4.txt move
+mv: cannot stat 's4.txt': No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s4.txt
+cat: s4.txt: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse      Documents  move   Pictures  R180610  snap       typescript      Videos
+Desktop  Downloads  Music  Public    s5       Templates  Untitled.ipynb
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s1
+cat: s1: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s2
+cat: s2: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >s1
+hii
+hello
+i am s1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s1
+hii
+hello
+i am s1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >s2
+hii
+hello
+i am s2
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s2
+hii
+hello
+i am s2
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  Pictures  s1  snap        Untitled.ipynb
+Desktop    move       Public    s2  Templates   Videos
+Documents  Music      R180610   s5  typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s5
+hii
+i am fine
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv s1 s2 s5 move
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cd move
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/move$ ls
+s1  s2  s5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/move$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse      Documents  move   Pictures  R180610  Templates   Untitled.ipynb
+Desktop  Downloads  Music  Public    snap     typescript  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mkdir -p cse1/ece1/civil1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse      Documents  Music     R180610    typescript
+cse1     Downloads  Pictures  snap       Untitled.ipynb
+Desktop  move       Public    Templates  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv cse1 cse
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse      Documents  move   Pictures  R180610  Templates   Untitled.ipynb
+Desktop  Downloads  Music  Public    snap     typescript  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cd cse
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ ls
+cse1  ece  first.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mkdir a
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv -i a cse
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv -i a
+mv: missing destination file operand after 'a'
+Try 'mv --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv -i
+mv: missing file operand
+Try 'mv --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cd cse
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ s
+s: command not found
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ ls
+a  cse1  ece  first.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ rmdir a
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ ls
+cse1  ece  first.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mkdir a
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+a    Desktop    Downloads  Music     Public   snap       typescript      Videos
+cse  Documents  move       Pictures  R180610  Templates  Untitled.ipynb
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv -i a cse
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse      Documents  move   Pictures  R180610  Templates   Untitled.ipynb
+Desktop  Downloads  Music  Public    snap     typescript  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cd cse
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ ls
+a  cse1  ece  first.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ rmdir a
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ ls
+cse1  ece  first.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse      Documents  move   Pictures  R180610  Templates   Untitled.ipynb
+Desktop  Downloads  Music  Public    snap     typescript  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >s1
+hii hello
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s1
+hii hello
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >s2
+hello 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s2
+hello 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv -i s1 s2
+mv: overwrite 's2'? y
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s2
+hii hello
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat s1
+cat: s1: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >f1
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f1
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >f2
+hii
+i am f2
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f2
+hii
+i am f2
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f1 f2
+hii
+i am f1
+hii
+i am f2
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  move      Public   snap        Untitled.ipynb
+Desktop    f1         Music     R180610  Templates   Videos
+Documents  f2         Pictures  s2       typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cp f1 f2
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f1
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f2
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cp -r
+cp: missing file operand
+Try 'cp --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  move      Public   snap        Untitled.ipynb
+Desktop    f1         Music     R180610  Templates   Videos
+Documents  f2         Pictures  s2       typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cp -r cse
+cp: missing destination file operand after 'cse'
+Try 'cp --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cd cse
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ ls
+cse1  ece  first.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ cd cse1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse/cse1$ ls
+ece1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse/cse1$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cp -r cse cse1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cd ls
+bash: cd: ls: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse      Documents  f2     Pictures  s2         typescript
+cse1     Downloads  move   Public    snap       Untitled.ipynb
+Desktop  f1         Music  R180610   Templates  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat cse
+cat: cse: Is a directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cd cse
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ ls
+cse1  ece  first.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ la
+.bash_history  Documents           move      snap
+.bash_logout   Downloads           .mozilla  .sudo_as_admin_successful
+.bashrc        f1                  Music     Templates
+.cache         f2                  Pictures  typescript
+.config        .gnupg              .profile  Untitled.ipynb
+cse            .ipynb_checkpoints  Public    Videos
+cse1           .ipython            R180610   .wget-hsts
+Desktop        .local              s2
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls 
+cse      Documents  f2     Pictures  s2         typescript
+cse1     Downloads  move   Public    snap       Untitled.ipynb
+Desktop  f1         Music  R180610   Templates  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ rmdir cse1
+rmdir: failed to remove 'cse1': Directory not empty
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cd cse1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ ls
+cse1  ece  first.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ rm first.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ ls
+cse1  ece
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ rmdir ece
+rmdir: failed to remove 'ece': Directory not empty
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ cd ece
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/ece$ ls
+eee
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/ece$ cd eee
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/ece/eee$ ls
+civil
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/ece/eee$ rmdir civil
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/ece/eee$ ls
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/ece/eee$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/ece$ rmdir eee
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/ece$ ls
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/ece$ rmdir ece
+rmdir: failed to remove 'ece': No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/ece$ ls
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/ece$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ ls
+cse1  ece
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ rmdir ece
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ ls
+cse1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ cd cse1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/cse1$ ls
+ece1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/cse1$ cd ece1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/cse1/ece1$ ls
+civil1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/cse1/ece1$ rmdir civil1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/cse1/ece1$ ls
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/cse1/ece1$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/cse1$ ls
+ece1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/cse1$ rmdir ece1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/cse1$ ls
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1/cse1$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ ls
+cse1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ rmdir cse1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ ls
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse1$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse      Documents  f2     Pictures  s2         typescript
+cse1     Downloads  move   Public    snap       Untitled.ipynb
+Desktop  f1         Music  R180610   Templates  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ rmdir cse1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  move      Public   snap        Untitled.ipynb
+Desktop    f1         Music     R180610  Templates   Videos
+Documents  f2         Pictures  s2       typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv f1 f2 f3
+mv: target 'f3' is not a directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv f1 f4
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f4
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f1
+cat: f1: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  move      Public   snap        Untitled.ipynb
+Desktop    f2         Music     R180610  Templates   Videos
+Documents  f4         Pictures  s2       typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat -b f2 f5
+     1	hii
+     2	i am f1
+cat: f5: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  move      Public   snap        Untitled.ipynb
+Desktop    f2         Music     R180610  Templates   Videos
+Documents  f4         Pictures  s2       typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv -b f2 f5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  move      Public   snap        Untitled.ipynb
+Desktop    f4         Music     R180610  Templates   Videos
+Documents  f5         Pictures  s2       typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f5
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  move      Public   snap        Untitled.ipynb
+Desktop    f4         Music     R180610  Templates   Videos
+Documents  f5         Pictures  s2       typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  move      Public   snap        Untitled.ipynb
+Desktop    f4         Music     R180610  Templates   Videos
+Documents  f5         Pictures  s2       typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ rm f4 f5 s2
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse      Documents  move   Pictures  R180610  Templates   Untitled.ipynb
+Desktop  Downloads  Music  Public    snap     typescript  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >f1
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >f2
+hii'
+i am f2
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f1
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f2
+hii'
+i am f2
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cp f1 f5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f1
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f5
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f5     Pictures  snap        Untitled.ipynb
+Desktop    f1         move   Public    Templates   Videos
+Documents  f2         Music  R180610   typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cp f1 f2 f5
+cp: target 'f5' is not a directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cp f1 f2 f5 cse
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f5     Pictures  snap        Untitled.ipynb
+Desktop    f1         move   Public    Templates   Videos
+Documents  f2         Music  R180610   typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cd cse
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ ls
+cse1  ece  f1  f2  f5  first.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f5     Pictures  snap        Untitled.ipynb
+Desktop    f1         move   Public    Templates   Videos
+Documents  f2         Music  R180610   typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mkdir ece
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f2    Music     R180610    typescript
+Desktop    ece        f5    Pictures  snap       Untitled.ipynb
+Documents  f1         move  Public    Templates  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cp ece cse
+cp: -r not specified; omitting directory 'ece'
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cp -r ece cse
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f2    Music     R180610    typescript
+Desktop    ece        f5    Pictures  snap       Untitled.ipynb
+Documents  f1         move  Public    Templates  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cd cse
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ ls
+cse1  ece  f1  f2  f5  first.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~/cse$ cd ..
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f2    Music     R180610    typescript
+Desktop    ece        f5    Pictures  snap       Untitled.ipynb
+Documents  f1         move  Public    Templates  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv -i f1 f2
+mv: overwrite 'f2'? y
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f5     Pictures  snap        Untitled.ipynb
+Desktop    ece        move   Public    Templates   Videos
+Documents  f2         Music  R180610   typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f2
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv -f f2 f5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f5
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f1
+cat: f1: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >f4
+hii
+i am linux
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f5     Pictures  snap        Untitled.ipynb
+Desktop    ece        move   Public    Templates   Videos
+Documents  f4         Music  R180610   typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv -b f5 f4
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f4~    Pictures  snap        Untitled.ipynb
+Desktop    ece        move   Public    Templates   Videos
+Documents  f4         Music  R180610   typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f4~
+hii
+i am linux
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv -n
+mv: missing file operand
+Try 'mv --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv -n f4
+mv: missing destination file operand after 'f4'
+Try 'mv --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f4~    Pictures  snap        Untitled.ipynb
+Desktop    ece        move   Public    Templates   Videos
+Documents  f4         Music  R180610   typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >f5
+hii
+i am f5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f5
+hii
+i am f5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f4
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mv -n f4 f5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f4
+hii
+i am f1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat f5
+hii
+i am f5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ exit
+exit
+
+Script done on 2023-03-02 16:24:55+05:30 [COMMAND_EXIT_CODE="0"]
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+
+

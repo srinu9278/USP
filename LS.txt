@@ -1,0 +1,123 @@
+apiiit-rkv@localhost:~/cse/secb$ cd ..
+apiiit-rkv@localhost:~/cse$ cd ..
+apiiit-rkv@localhost:~$ ls
+a                          cse        eclipse            Music                                       Pictures  Templates        Untitled.ipynb
+apache-tomcat-10.0.27      Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public    Untitled1.ipynb  Videos
+apache-tomcat-10.0.27.zip  Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap      Untitled2.ipynb
+bestfit.py                 Downloads  hotel.sqlite       NetBeansProjects                            srinu     Untitled3.ipynb
+apiiit-rkv@localhost:~$ ls -r
+Videos           Templates  NetBeansProjects                            examples.desktop   Desktop                    a
+Untitled.ipynb   srinu      mysql-connector-java-8.0.29-tidb-1.0.2.jar  eclipse-workspace  cse
+Untitled3.ipynb  snap       mysql-apt-config_0.8.11-1_all.deb           eclipse            bestfit.py
+Untitled2.ipynb  Public     Music                                       Downloads          apache-tomcat-10.0.27.zip
+Untitled1.ipynb  Pictures   hotel.sqlite                                Documents          apache-tomcat-10.0.27
+apiiit-rkv@localhost:~$ ls -1
+a
+apache-tomcat-10.0.27
+apache-tomcat-10.0.27.zip
+bestfit.py
+cse
+Desktop
+Documents
+Downloads
+eclipse
+eclipse-workspace
+examples.desktop
+hotel.sqlite
+Music
+mysql-apt-config_0.8.11-1_all.deb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar
+NetBeansProjects
+Pictures
+Public
+snap
+srinu
+Templates
+Untitled1.ipynb
+Untitled2.ipynb
+Untitled3.ipynb
+Untitled.ipynb
+Videos
+apiiit-rkv@localhost:~$ ls -a
+.                          cse                .ipynb_checkpoints                          .p2                        Templates
+..                         Desktop            .java                                       Pictures                   Untitled1.ipynb
+a                          Documents          .local                                      .pki                       Untitled2.ipynb
+apache-tomcat-10.0.27      Downloads          .mozilla                                    .profile                   Untitled3.ipynb
+apache-tomcat-10.0.27.zip  eclipse            Music                                       Public                     Untitled.ipynb
+.bash_history              .eclipse           .mysql                                      .redeclipse                Videos
+.bash_logout               eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           snap                       .wget-hsts
+.bashrc                    examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  srinu
+bestfit.py                 .gnupg             .mysql_history                              .ssh
+.cache                     hotel.sqlite       .netbeans                                   .sudo_as_admin_successful
+.config                    .ICEauthority      NetBeansProjects                            .swt
+apiiit-rkv@localhost:~$ ls
+a                          cse        eclipse            Music                                       Pictures  Templates        Untitled.ipynb
+apache-tomcat-10.0.27      Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public    Untitled1.ipynb  Videos
+apache-tomcat-10.0.27.zip  Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap      Untitled2.ipynb
+bestfit.py                 Downloads  hotel.sqlite       NetBeansProjects                            srinu     Untitled3.ipynb
+apiiit-rkv@localhost:~$ ls -l
+total 14860
+drwxrwxr-x 3 apiiit-rkv apiiit-rkv     4096 Feb 21 23:18 a
+drwxr-xr-x 9 apiiit-rkv apiiit-rkv     4096 Oct  3 14:18 apache-tomcat-10.0.27
+-rwxr----- 1 apiiit-rkv apiiit-rkv 12525287 Dec 30 14:42 apache-tomcat-10.0.27.zip
+-rw-rw-r-- 1 apiiit-rkv apiiit-rkv      411 Feb  8 18:32 bestfit.py
+drwxrwxr-x 3 apiiit-rkv apiiit-rkv     4096 Feb 21 23:20 cse
+drwxr-xr-x 6 apiiit-rkv apiiit-rkv     4096 Feb 21 23:32 Desktop
+drwxr-xr-x 3 apiiit-rkv apiiit-rkv     4096 Feb  9 00:01 Documents
+drwxr-xr-x 5 apiiit-rkv apiiit-rkv    20480 Feb 15 11:48 Downloads
+drwxr-xr-x 3 apiiit-rkv apiiit-rkv     4096 Nov  9 15:25 eclipse
+drwxrwxr-x 4 apiiit-rkv apiiit-rkv     4096 Nov 23 21:34 eclipse-workspace
+-rw-r--r-- 1 apiiit-rkv apiiit-rkv     8980 Mar  2  2019 examples.desktop
+-rw-r--r-- 1 apiiit-rkv apiiit-rkv        0 Nov  9 16:16 hotel.sqlite
+drwxr-xr-x 2 apiiit-rkv apiiit-rkv     4096 Mar  2  2019 Music
+-rw-r--r-- 1 apiiit-rkv apiiit-rkv    35420 Nov 27  2018 mysql-apt-config_0.8.11-1_all.deb
+-rwxr----- 1 apiiit-rkv apiiit-rkv  2534016 Dec 30 14:41 mysql-connector-java-8.0.29-tidb-1.0.2.jar
+drwxrwxr-x 3 apiiit-rkv apiiit-rkv     4096 Dec 30 16:04 NetBeansProjects
+drwxr-xr-x 2 apiiit-rkv apiiit-rkv     4096 Dec 30 16:31 Pictures
+drwxr-xr-x 2 apiiit-rkv apiiit-rkv     4096 Mar  2  2019 Public
+drwx------ 4 apiiit-rkv apiiit-rkv     4096 Nov 15 16:01 snap
+drwxrwxr-x 2 apiiit-rkv apiiit-rkv     4096 Feb 21 23:25 srinu
+drwxr-xr-x 2 apiiit-rkv apiiit-rkv     4096 Mar  2  2019 Templates
+-rw-rw-r-- 1 apiiit-rkv apiiit-rkv      506 Feb 21 23:10 Untitled1.ipynb
+-rw-rw-r-- 1 apiiit-rkv apiiit-rkv       72 Feb 21 23:13 Untitled2.ipynb
+-rw-rw-r-- 1 apiiit-rkv apiiit-rkv      477 Feb 21 23:16 Untitled3.ipynb
+-rw-rw-r-- 1 apiiit-rkv apiiit-rkv       72 Feb 21 23:06 Untitled.ipynb
+drwxr-xr-x 3 apiiit-rkv apiiit-rkv     4096 Nov 15 13:55 Videos
+apiiit-rkv@localhost:~$ ls -d
+.
+apiiit-rkv@localhost:~$ ls -ld
+drwxr-xr-x 33 apiiit-rkv apiiit-rkv 4096 Feb 21 23:28 .
+apiiit-rkv@localhost:~$ ls -nd
+drwxr-xr-x 33 1000 1000 4096 Feb 21 23:28 .
+apiiit-rkv@localhost:~$ cd cse
+apiiit-rkv@localhost:~/cse$ ls
+1.txt  secb
+apiiit-rkv@localhost:~/cse$ ls -l 1.txt
+-rw-rw-r-- 1 apiiit-rkv apiiit-rkv 0 Feb 21 22:25 1.txt
+apiiit-rkv@localhost:~/cse$ ls -l secb
+total 8
+-rw-rw-r-- 1 apiiit-rkv apiiit-rkv 42 Feb 21 23:42 a1
+-rw-rw-r-- 1 apiiit-rkv apiiit-rkv 26 Feb 21 23:40 a2
+apiiit-rkv@localhost:~/cse$ ls secb
+a1  a2
+apiiit-rkv@localhost:~/cse$ ls -1 secb
+a1
+a2
+apiiit-rkv@localhost:~/cse$ ls -l secb
+total 8
+-rw-rw-r-- 1 apiiit-rkv apiiit-rkv 42 Feb 21 23:42 a1
+-rw-rw-r-- 1 apiiit-rkv apiiit-rkv 26 Feb 21 23:40 a2
+apiiit-rkv@localhost:~/cse$ ls -l cse
+ls: cannot access 'cse': No such file or directory
+apiiit-rkv@localhost:~/cse$ cd ..
+apiiit-rkv@localhost:~$ ls
+a                          cse        eclipse            Music                                       Pictures  Templates        Untitled.ipynb
+apache-tomcat-10.0.27      Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public    Untitled1.ipynb  Videos
+apache-tomcat-10.0.27.zip  Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap      Untitled2.ipynb
+bestfit.py                 Downloads  hotel.sqlite       NetBeansProjects                            srinu     Untitled3.ipynb
+apiiit-rkv@localhost:~$ ls -l cse
+total 4
+-rw-rw-r-- 1 apiiit-rkv apiiit-rkv    0 Feb 21 22:25 1.txt
+drwxrwxr-x 2 apiiit-rkv apiiit-rkv 4096 Feb 21 23:40 secb
+apiiit-rkv@localhost:~$ 
+

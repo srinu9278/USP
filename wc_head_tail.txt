@@ -1,0 +1,1289 @@
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ script
+Script started, file is typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ exirt
+exirt: command not found
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ exit
+exit
+Script done, file is typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ script R180610
+Script started, file is R180610
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f4~   Music     R180610    typescript
+Desktop    ece        f5    Pictures  snap       Untitled.ipynb
+Documents  f4         move  Public    Templates  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >sr.txt
+hii
+i am sr.txt for word_count
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+hii
+i am sr.txt for word_count
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc sr.txt
+ 2  6 31 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -l
+0
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -l sr.txt
+2 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -c sr.txt
+31 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -w sr.txt
+6 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -m sr.txt
+31 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -L sr.txt
+26 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc sr.xt sr1.txt
+wc: sr.xt: No such file or directory
+ 2  9 59 sr1.txt
+ 2  9 59 total
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+hii
+i am sr.txt for word_count
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc sr.txt sr1.txt
+ 2  6 31 sr.txt
+ 2  9 59 sr1.txt
+ 4 15 90 total
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls | wc -l
+20
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc sr.txt sr1.txt
+ 2  6 31 sr.txt
+ 2  9 59 sr1.txt
+ 4 15 90 total
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc Bikaner_*
+wc: 'Bikaner_*': No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head sr.txt
+hii
+i am sr.txt for word_count
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >>sr.txt
+these are types
+of apples
+i have to eat these  
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -3 sr.txt
+mango
+apple
+grapes
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >>sr1.txt
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head sr.txt sr1.txt
+==> sr.txt <==
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+
+==> sr1.txt <==
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -q sr.txt sr1.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head --verbose sr.txt sr1.txt
+==> sr.txt <==
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+
+==> sr1.txt <==
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -5 sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -c sr.txt
+head: invalid number of bytes: ‘sr.txt’
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -c 20 sr.txt
+mango
+apple
+grapes
+wrgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -n 10 sr.txt | tail -10
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail sr.txt
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -3 sr.txt
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail sr.txt sr1.txt
+==> sr.txt <==
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+
+==> sr1.txt <==
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail - q sr.txt sr1.txt
+==> standard input <==
+tail: cannot open 'q' for reading: No such file or directory
+
+==> sr.txt <==
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+
+==> sr1.txt <==
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -q sr1.txt sr.txt
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n 3 sr.txt
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head  -3 | tail -3
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ haed -3 sr.txt | tail -3
+
+Command 'haed' not found, did you mean:
+
+  command 'head' from deb coreutils (8.30-3ubuntu2)
+
+Try: sudo apt install <deb name>
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ headd -3 sr.txt | tail -3
+
+Command 'headd' not found, did you mean:
+
+  command 'head' from deb coreutils (8.30-3ubuntu2)
+
+Try: sudo apt install <deb name>
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -3 sr.txt | tail -3
+mango
+apple
+grapes
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ sr.txt
+sr.txt: command not found
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -6 sr.txt | tail -3
+watermelon
+papaya
+banana
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -12 sr.txt | tail -3
+these are types
+of apples
+i have to eat these
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -9 sr.txt | tail -1
+pineapple
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -8 sr.txt | tail -1
+gauva
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -7 sr.txt | tail -1
+jackfruit
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -3 sr.txt | tail -3
+mango
+apple
+grapes
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -6 sr.txt | tail -3
+watermelon
+papaya
+banana
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==3,NR==6{print $0}' sr.txt
+grapes
+watermelon
+papaya
+banana
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==3,NR==6{print $1}' sr.txt
+grapes
+watermelon
+papaya
+banana
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,NR==1{print $1}' sr.txt
+jackfruit
+gauva
+pineapple
+these
+of
+i
+all
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,NR==1{print $0}' sr.txt
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7'{print $0}' sr.txt
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,N==7{print $0}' sr.txt
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7{print $0}' sr.txt
+jackfruit
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,N==2{print $2}' sr.txt
+
+
+
+are
+apples
+have
+fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,N==2{print $0}' sr.txt
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==3,N==9{print $3}' sr.txt
+
+
+
+
+
+
+
+types
+
+to
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +13 sr.txt | head -13
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +8 sr.tx | head -1
+tail: cannot open 'sr.tx' for reading: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +8 sr.txt | head -1
+gauva
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +9 sr.txt | head -1
+pineapple
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +7 sr.txt | head -1
+jackfruit
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -4 sr.txt | head -2
+these are types
+of apples
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -c 6 sr.txt
+mango
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -w 6 sr.txt
+head: invalid option -- 'w'
+Try 'head --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -v sr.txt
+==> sr.txt <==
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t
+R180610   sr.txt      f4~  f4       Untitled.ipynb  Videos     Public
+Pictures  typescript  ece  move     Downloads       Documents  Templates
+sr1.txt   f5          cse  Desktop  snap            Music
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head -n 3
+R180610
+Pictures
+sr1.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -1
+cse
+Desktop
+Documents
+Downloads
+ece
+f4
+f4~
+f5
+move
+Music
+Pictures
+Public
+R180610
+snap
+sr1.txt
+sr.txt
+Templates
+typescript
+Untitled.ipynb
+Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t |head 6
+head: cannot open '6' for reading: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head 6
+head: cannot open '6' for reading: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head -n 6
+R180610
+Pictures
+sr1.txt
+sr.txt
+typescript
+f5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head -n 3 | sort
+Pictures
+R180610
+sr1.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head -n 8 | sort
+ece
+f4~
+f5
+Pictures
+R180610
+sr1.txt
+sr.txt
+typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail sr.txt
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n 7 sr.txt | sort -r
+these are types
+pineapple
+of apples
+jackfruit
+i have to eat these
+gauva
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n 7 sr.txt
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ exit
+exit
+Script done, file is R180610
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat R180610
+Script started on 2023-03-02 16:30:52+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f4~   Music     R180610    typescript
+Desktop    ece        f5    Pictures  snap       Untitled.ipynb
+Documents  f4         move  Public    Templates  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >sr.txt
+hii
+i am sr.txt for word_count
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+hii
+i am sr.txt for word_count
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc sr.txt
+ 2  6 31 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -l
+0
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -l sr.txt
+2 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -c sr.txt
+31 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -w sr.txt
+6 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -m sr.txt
+31 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -L sr.txt
+26 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc sr.xt sr1.txt
+wc: sr.xt: No such file or directory
+ 2  9 59 sr1.txt
+ 2  9 59 total
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+hii
+i am sr.txt for word_count
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc sr.txt sr1.txt
+ 2  6 31 sr.txt
+ 2  9 59 sr1.txt
+ 4 15 90 total
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls | wc -l
+20
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc sr.txt sr1.txt
+ 2  6 31 sr.txt
+ 2  9 59 sr1.txt
+ 4 15 90 total
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc Bikaner_*
+wc: 'Bikaner_*': No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head sr.txt
+hii
+i am sr.txt for word_count
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >>sr.txt
+these are types
+of apples
+i have to eat these  
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -3 sr.txt
+mango
+apple
+grapes
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >>sr1.txt
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head sr.txt sr1.txt
+==> sr.txt <==
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+
+==> sr1.txt <==
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -q sr.txt sr1.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head --verbose sr.txt sr1.txt
+==> sr.txt <==
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+
+==> sr1.txt <==
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -5 sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -c sr.txt
+head: invalid number of bytes: ‘sr.txt’
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -c 20 sr.txt
+mango
+apple
+grapes
+wrgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -n 10 sr.txt | tail -10
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail sr.txt
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -3 sr.txt
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail sr.txt sr1.txt
+==> sr.txt <==
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+
+==> sr1.txt <==
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail - q sr.txt sr1.txt
+==> standard input <==
+tail: cannot open 'q' for reading: No such file or directory
+
+==> sr.txt <==
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+
+==> sr1.txt <==
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -q sr1.txt sr.txt
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n 3 sr.txt
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head  -3 | tail -3
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ haed -3 sr.txt | tail -3
+
+Command 'haed' not found, did you mean:
+
+  command 'head' from deb coreutils (8.30-3ubuntu2)
+
+Try: sudo apt install <deb name>
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ headd -3 sr.txt | tail -3
+
+Command 'headd' not found, did you mean:
+
+  command 'head' from deb coreutils (8.30-3ubuntu2)
+
+Try: sudo apt install <deb name>
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -3 sr.txt | tail -3
+mango
+apple
+grapes
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ sr.txt
+sr.txt: command not found
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -6 sr.txt | tail -3
+watermelon
+papaya
+banana
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -12 sr.txt | tail -3
+these are types
+of apples
+i have to eat these
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -9 sr.txt | tail -1
+pineapple
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -8 sr.txt | tail -1
+gauva
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -7 sr.txt | tail -1
+jackfruit
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -3 sr.txt | tail -3
+mango
+apple
+grapes
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -6 sr.txt | tail -3
+watermelon
+papaya
+banana
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==3,NR==6{print $0}' sr.txt
+grapes
+watermelon
+papaya
+banana
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==3,NR==6{print $1}' sr.txt
+grapes
+watermelon
+papaya
+banana
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,NR==1{print $1}' sr.txt
+jackfruit
+gauva
+pineapple
+these
+of
+i
+all
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,NR==1{print $0}' sr.txt
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7'{print $0}' sr.txt
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,N==7{print $0}' sr.txt
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7{print $0}' sr.txt
+jackfruit
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,N==2{print $2}' sr.txt
+
+
+
+are
+apples
+have
+fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,N==2{print $0}' sr.txt
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==3,N==9{print $3}' sr.txt
+
+
+
+
+
+
+
+types
+
+to
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +13 sr.txt | head -13
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +8 sr.tx | head -1
+tail: cannot open 'sr.tx' for reading: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +8 sr.txt | head -1
+gauva
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +9 sr.txt | head -1
+pineapple
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +7 sr.txt | head -1
+jackfruit
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -4 sr.txt | head -2
+these are types
+of apples
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -c 6 sr.txt
+mango
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -w 6 sr.txt
+head: invalid option -- 'w'
+Try 'head --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -v sr.txt
+==> sr.txt <==
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t
+R180610   sr.txt      f4~  f4       Untitled.ipynb  Videos     Public
+Pictures  typescript  ece  move     Downloads       Documents  Templates
+sr1.txt   f5          cse  Desktop  snap            Music
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head -n 3
+R180610
+Pictures
+sr1.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -1
+cse
+Desktop
+Documents
+Downloads
+ece
+f4
+f4~
+f5
+move
+Music
+Pictures
+Public
+R180610
+snap
+sr1.txt
+sr.txt
+Templates
+typescript
+Untitled.ipynb
+Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t |head 6
+head: cannot open '6' for reading: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head 6
+head: cannot open '6' for reading: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head -n 6
+R180610
+Pictures
+sr1.txt
+sr.txt
+typescript
+f5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head -n 3 | sort
+Pictures
+R180610
+sr1.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head -n 8 | sort
+ece
+f4~
+f5
+Pictures
+R180610
+sr1.txt
+sr.txt
+typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail sr.txt
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n 7 sr.txt | sort -r
+these are types
+pineapple
+of apples
+jackfruit
+i have to eat these
+gauva
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n 7 sr.txt
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ exit
+exit
+
+Script done on 2023-03-02 18:23:10+05:30 [COMMAND_EXIT_CODE="0"]
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 

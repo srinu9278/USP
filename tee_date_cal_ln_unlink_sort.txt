@@ -1,0 +1,1782 @@
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ script
+Script started, file is typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ exit
+exit
+Script done, file is typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ script -a R180610
+Script started, file is R180610
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tee c1
+hii
+hii
+hello
+hello
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat c1
+hii
+hello
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tee c2 c3
+hii
+hii
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat c2
+hii
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat c3
+hii
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date
+Friday 03 March 2023 09:47:11 AM IST
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date + %D
+date: extra operand ‘%D’
+Try 'date --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%D
+03/03/23
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%m
+03
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%d
+03
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%Y
+2023
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%T
+09:48:38
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%S
+45
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%P
+am
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%r
+09:48:57 AM IST
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%H
+09
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%M
+49
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cal
+     March 2023       
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 31     
+                      
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cal 1
+                             1
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5         1  2  3  4  5  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   6  7  8  9 10 11 12  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  13 14 15 16 17 18 19  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  20 21 22 23 24 25 26  
+23 24 25 26 27 28 29  27 28                 27 28 29 30 31        
+30 31                                                             
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2   1  2  3  4  5  6  7            1  2  3  4  
+ 3  4  5  6  7  8  9   8  9 10 11 12 13 14   5  6  7  8  9 10 11  
+10 11 12 13 14 15 16  15 16 17 18 19 20 21  12 13 14 15 16 17 18  
+17 18 19 20 21 22 23  22 23 24 25 26 27 28  19 20 21 22 23 24 25  
+24 25 26 27 28 29 30  29 30 31              26 27 28 29 30        
+                                                                  
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2      1  2  3  4  5  6               1  2  3  
+ 3  4  5  6  7  8  9   7  8  9 10 11 12 13   4  5  6  7  8  9 10  
+10 11 12 13 14 15 16  14 15 16 17 18 19 20  11 12 13 14 15 16 17  
+17 18 19 20 21 22 23  21 22 23 24 25 26 27  18 19 20 21 22 23 24  
+24 25 26 27 28 29 30  28 29 30 31           25 26 27 28 29 30     
+31                                                                
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5               1  2  3  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   4  5  6  7  8  9 10  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  11 12 13 14 15 16 17  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  18 19 20 21 22 23 24  
+23 24 25 26 27 28 29  27 28 29 30           25 26 27 28 29 30 31  
+30 31                                                             
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cal 20230
+cal: year `20230' not in range 1..9999
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cal 2023
+                            2023
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4            1  2  3  4  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   5  6  7  8  9 10 11  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  12 13 14 15 16 17 18  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  19 20 21 22 23 24 25  
+29 30 31              26 27 28              26 27 28 29 30 31     
+                                                                  
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1      1  2  3  4  5  6               1  2  3  
+ 2  3  4  5  6  7  8   7  8  9 10 11 12 13   4  5  6  7  8  9 10  
+ 9 10 11 12 13 14 15  14 15 16 17 18 19 20  11 12 13 14 15 16 17  
+16 17 18 19 20 21 22  21 22 23 24 25 26 27  18 19 20 21 22 23 24  
+23 24 25 26 27 28 29  28 29 30 31           25 26 27 28 29 30     
+30                                                                
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5                  1  2  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   3  4  5  6  7  8  9  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  10 11 12 13 14 15 16  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  17 18 19 20 21 22 23  
+23 24 25 26 27 28 29  27 28 29 30 31        24 25 26 27 28 29 30  
+30 31                                                             
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4                  1  2  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   3  4  5  6  7  8  9  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  10 11 12 13 14 15 16  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  17 18 19 20 21 22 23  
+29 30 31              26 27 28 29 30        24 25 26 27 28 29 30  
+                                            31                    
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cal 2 2020
+   February 2020      
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28 29  
+                      
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cal 10 1999
+    October 1999      
+Su Mo Tu We Th Fr Sa  
+                1  2  
+ 3  4  5  6  7  8  9  
+10 11 12 13 14 15 16  
+17 18 19 20 21 22 23  
+24 25 26 27 28 29 30  
+31                    
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+c1       cut3.txt   ece        file2.txt    Public   state           Videos
+c2       cut.txt    f4         move         R180610  Templates
+c3       Desktop    f4~        Music        snap     typescript
+capital  Documents  f5         newfile.txt  sr1.txt  umask1
+cse      Downloads  file1.txt  Pictures     sr.txt   Untitled.ipynb
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ sort sr1.txt
+cd 100
+D
+etc
+hii hello
+honda
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+like
+pulser
+rx-100
+splender
+the types of vehicles
+tvs
+xl-100
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ sort -r sr1.txt
+xl-100
+tvs
+the types of vehicles
+splender
+rx-100
+pulser
+like
+i am going write about
+i am from sr1.txt to count words,char,lines..etc
+honda
+hii hello
+etc
+D
+cd 100
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ sort -n sr1.txt
+cd 100
+D
+etc
+hii hello
+honda
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+like
+pulser
+rx-100
+splender
+the types of vehicles
+tvs
+xl-100
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat ln1
+cat: ln1: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >ln1
+hii
+hello
+i am nl1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat ln1
+hii
+hello
+i am nl1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ln ln1 ln3
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat ln3
+hii
+hello
+i am nl1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat ln1
+hii
+hello
+i am nl1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >>ln1
+appending something to ln1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat ln1
+hii
+hello
+i am nl1
+appending something to ln1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat ln3
+hii
+hello
+i am nl1
+appending something to ln1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls- l ln1
+
+Command 'ls-' not found, did you mean:
+
+  command 'lsw' from deb suckless-tools (44-1)
+  command 'ls' from deb coreutils (8.30-3ubuntu2)
+  command 'lsm' from deb lsm (1.0.4-1)
+  command 'lsc' from deb livescript (1.6.0+dfsg-1)
+  command 'lsh' from deb lsh-client (2.1-12build3)
+
+Try: sudo apt install <deb name>
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+c1        cut.txt    f4~        move         snap        umask1
+c2        Desktop    f5         Music        sr1.txt     Untitled.ipynb
+c3        Documents  file1.txt  newfile.txt  sr.txt      Videos
+capital   Downloads  file2.txt  Pictures     state
+cse       ece        ln1        Public       Templates
+cut3.txt  f4         ln3        R180610      typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -l ln1
+-rw-rw-r-- 2 rgukt123 rgukt123 46 Mar  3 09:54 ln1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ln ln1 ln4
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ unlink ln4
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+c1        cut.txt    f4~        move         snap        umask1
+c2        Desktop    f5         Music        sr1.txt     Untitled.ipynb
+c3        Documents  file1.txt  newfile.txt  sr.txt      Videos
+capital   Downloads  file2.txt  Pictures     state
+cse       ece        ln1        Public       Templates
+cut3.txt  f4         ln3        R180610      typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ unlink ln1 ln3
+unlink: extra operand ‘ln3’
+Try 'unlink --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ exit
+exit
+Script done, file is R180610
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat R180610
+Script started on 2023-03-02 16:30:52+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse        Downloads  f4~   Music     R180610    typescript
+Desktop    ece        f5    Pictures  snap       Untitled.ipynb
+Documents  f4         move  Public    Templates  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >sr.txt
+hii
+i am sr.txt for word_count
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+hii
+i am sr.txt for word_count
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc sr.txt
+ 2  6 31 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -l
+0
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -l sr.txt
+2 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -c sr.txt
+31 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -w sr.txt
+6 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -m sr.txt
+31 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc -L sr.txt
+26 sr.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc sr.xt sr1.txt
+wc: sr.xt: No such file or directory
+ 2  9 59 sr1.txt
+ 2  9 59 total
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+hii
+i am sr.txt for word_count
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc sr.txt sr1.txt
+ 2  6 31 sr.txt
+ 2  9 59 sr1.txt
+ 4 15 90 total
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls | wc -l
+20
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc sr.txt sr1.txt
+ 2  6 31 sr.txt
+ 2  9 59 sr1.txt
+ 4 15 90 total
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ wc Bikaner_*
+wc: 'Bikaner_*': No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head sr.txt
+hii
+i am sr.txt for word_count
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >>sr.txt
+these are types
+of apples
+i have to eat these  
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -3 sr.txt
+mango
+apple
+grapes
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >>sr1.txt
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head sr.txt sr1.txt
+==> sr.txt <==
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+
+==> sr1.txt <==
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -q sr.txt sr1.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head --verbose sr.txt sr1.txt
+==> sr.txt <==
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+
+==> sr1.txt <==
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -5 sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -c sr.txt
+head: invalid number of bytes: ‘sr.txt’
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -c 20 sr.txt
+mango
+apple
+grapes
+wrgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -n 10 sr.txt | tail -10
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail sr.txt
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -3 sr.txt
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail sr.txt sr1.txt
+==> sr.txt <==
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+
+==> sr1.txt <==
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail - q sr.txt sr1.txt
+==> standard input <==
+tail: cannot open 'q' for reading: No such file or directory
+
+==> sr.txt <==
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+
+==> sr1.txt <==
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -q sr1.txt sr.txt
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n 3 sr.txt
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head  -3 | tail -3
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ haed -3 sr.txt | tail -3
+
+Command 'haed' not found, did you mean:
+
+  command 'head' from deb coreutils (8.30-3ubuntu2)
+
+Try: sudo apt install <deb name>
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ headd -3 sr.txt | tail -3
+
+Command 'headd' not found, did you mean:
+
+  command 'head' from deb coreutils (8.30-3ubuntu2)
+
+Try: sudo apt install <deb name>
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -3 sr.txt | tail -3
+mango
+apple
+grapes
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ sr.txt
+sr.txt: command not found
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -6 sr.txt | tail -3
+watermelon
+papaya
+banana
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -12 sr.txt | tail -3
+these are types
+of apples
+i have to eat these
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -9 sr.txt | tail -1
+pineapple
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -8 sr.txt | tail -1
+gauva
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -7 sr.txt | tail -1
+jackfruit
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -3 sr.txt | tail -3
+mango
+apple
+grapes
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -6 sr.txt | tail -3
+watermelon
+papaya
+banana
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==3,NR==6{print $0}' sr.txt
+grapes
+watermelon
+papaya
+banana
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==3,NR==6{print $1}' sr.txt
+grapes
+watermelon
+papaya
+banana
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,NR==1{print $1}' sr.txt
+jackfruit
+gauva
+pineapple
+these
+of
+i
+all
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,NR==1{print $0}' sr.txt
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7'{print $0}' sr.txt
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,N==7{print $0}' sr.txt
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7{print $0}' sr.txt
+jackfruit
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,N==2{print $2}' sr.txt
+
+
+
+are
+apples
+have
+fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==7,N==2{print $0}' sr.txt
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ awk 'NR==3,N==9{print $3}' sr.txt
+
+
+
+
+
+
+
+types
+
+to
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +13 sr.txt | head -13
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +8 sr.tx | head -1
+tail: cannot open 'sr.tx' for reading: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +8 sr.txt | head -1
+gauva
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +9 sr.txt | head -1
+pineapple
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n +7 sr.txt | head -1
+jackfruit
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -4 sr.txt | head -2
+these are types
+of apples
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -c 6 sr.txt
+mango
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -w 6 sr.txt
+head: invalid option -- 'w'
+Try 'head --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ head -v sr.txt
+==> sr.txt <==
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t
+R180610   sr.txt      f4~  f4       Untitled.ipynb  Videos     Public
+Pictures  typescript  ece  move     Downloads       Documents  Templates
+sr1.txt   f5          cse  Desktop  snap            Music
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head -n 3
+R180610
+Pictures
+sr1.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -1
+cse
+Desktop
+Documents
+Downloads
+ece
+f4
+f4~
+f5
+move
+Music
+Pictures
+Public
+R180610
+snap
+sr1.txt
+sr.txt
+Templates
+typescript
+Untitled.ipynb
+Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t |head 6
+head: cannot open '6' for reading: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head 6
+head: cannot open '6' for reading: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head -n 6
+R180610
+Pictures
+sr1.txt
+sr.txt
+typescript
+f5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head -n 3 | sort
+Pictures
+R180610
+sr1.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -t | head -n 8 | sort
+ece
+f4~
+f5
+Pictures
+R180610
+sr1.txt
+sr.txt
+typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail sr.txt
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr.txt
+mango
+apple
+grapes
+watermelon
+papaya
+banana
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n 7 sr.txt | sort -r
+these are types
+pineapple
+of apples
+jackfruit
+i have to eat these
+gauva
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tail -n 7 sr.txt
+jackfruit
+gauva
+pineapple
+these are types
+of apples
+i have to eat these
+all fruits
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ exit
+exit
+
+Script done on 2023-03-02 18:23:10+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-03-02 18:29:20+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ exit
+exit
+
+Script done on 2023-03-02 18:29:27+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-03-02 18:30:12+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >cut.txt
+hello
+i am fine here
+what about u
+yes!i am fine 
+ok thanks bye
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -c 1 cut.txt
+h
+i
+w
+y
+o
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -c 1,2,3 cut.txt
+hel
+i a
+wha
+yes
+ok 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -c 1-3 cut.txt
+hel
+i a
+wha
+yes
+ok 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -c 2-9 cut.txt
+ello
+ am fine
+hat abou
+es!i am 
+k thanks
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -c 3- cut.txt
+llo
+am fine here
+at about u
+s!i am fine 
+ thanks bye
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -f 2 cut.txt
+hello
+i am fine here
+what about u
+yes!i am fine 
+ok thanks bye
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -f 2- cut.txt
+hello
+i am fine here
+what about u
+yes!i am fine 
+ok thanks bye
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >cut3.txt
+s.no:id:name
+1:r180610:srinu
+2:r180814:sai
+3
+:r180641:mohan
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ rm cut3.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse      Documents  f4   move      Public   sr1.txt    typescript
+cut.txt  Downloads  f4~  Music     R180610  sr.txt     Untitled.ipynb
+Desktop  ece        f5   Pictures  snap     Templates  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >cut3.txt
+s.no:id:name
+1:r180610:srinu
+2:r180814:sai
+3:r180641:mohan
+4:r180607:manohar
+5:r180605:praveen
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat cut3.txt
+s.no:id:name
+1:r180610:srinu
+2:r180814:sai
+3:r180641:mohan
+4:r180607:manohar
+5:r180605:praveen
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -d":" -f 2 cut3.txt
+id
+r180610
+r180814
+r180641
+r180607
+r180605
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -d":" -f 1 cut3.txt
+s.no
+1
+2
+3
+4
+5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -d":" -f 3 cut3.txt
+name
+srinu
+sai
+mohan
+manohar
+praveen
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -d":" -f 4 cut3.txt
+
+
+
+
+
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -d":" -f  cut3.txt
+cut: invalid field value ‘cut3.txt’
+Try 'cut --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -d":" -f  1 cut3.txt
+s.no
+1
+2
+3
+4
+5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -b 1 cut3.txt
+s
+1
+2
+3
+4
+5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -b 1-5 cut3.txt
+s.no:
+1:r18
+2:r18
+3:r18
+4:r18
+5:r18
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -b 1-10 cut3.txt
+s.no:id:na
+1:r180610:
+2:r180814:
+3:r180641:
+4:r180607:
+5:r180605:
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -b 3-10 cut3.txt
+no:id:na
+r180610:
+r180814:
+r180641:
+r180607:
+r180605:
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -b 3,10 cut3.txt
+na
+r:
+r:
+r:
+r:
+r:
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -b 3,7 cut3.txt
+nd
+r6
+r8
+r6
+r6
+r6
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -c 3,7 cut3.txt
+nd
+r6
+r8
+r6
+r6
+r6
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut -c 1 cut3.txt
+s
+1
+2
+3
+4
+5
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut --complement -c  1 cut3.txt
+.no:id:name
+:r180610:srinu
+:r180814:sai
+:r180641:mohan
+:r180607:manohar
+:r180605:praveen
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut --complement -c  1,2 cut3.txt
+no:id:name
+r180610:srinu
+r180814:sai
+r180641:mohan
+r180607:manohar
+r180605:praveen
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut --complement -c  1,7 cut3.txt
+.no:i:name
+:r18010:srinu
+:r18014:sai
+:r18041:mohan
+:r18007:manohar
+:r18005:praveen
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut --complement -c  1-3 cut3.txt
+o:id:name
+180610:srinu
+180814:sai
+180641:mohan
+180607:manohar
+180605:praveen
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse       Desktop    ece  f5     Pictures  snap     Templates       Videos
+cut3.txt  Documents  f4   move   Public    sr1.txt  typescript
+cut.txt   Downloads  f4~  Music  R180610   sr.txt   Untitled.ipynb
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -l
+total 116
+drwxrwxr-x  4 rgukt123 rgukt123  4096 Mar  2 16:18 cse
+-rw-rw-r--  1 rgukt123 rgukt123    95 Mar  2 18:37 cut3.txt
+-rw-rw-r--  1 rgukt123 rgukt123    63 Mar  2 18:32 cut.txt
+drwxr-xr-x 13 rgukt123 rgukt123  4096 Mar  1 21:43 Desktop
+drwxr-xr-x  2 rgukt123 rgukt123  4096 Feb 27 12:54 Documents
+drwxr-xr-x  3 rgukt123 rgukt123  4096 Mar  1 15:10 Downloads
+drwxrwxr-x  2 rgukt123 rgukt123  4096 Mar  2 16:19 ece
+-rw-rw-r--  1 rgukt123 rgukt123    12 Mar  2 16:17 f4
+-rw-rw-r--  1 rgukt123 rgukt123    15 Mar  2 16:22 f4~
+-rw-rw-r--  1 rgukt123 rgukt123    12 Mar  2 16:23 f5
+drwxrwxr-x  2 rgukt123 rgukt123  4096 Mar  2 15:59 move
+drwxr-xr-x  2 rgukt123 rgukt123  4096 Feb 27 12:54 Music
+drwxr-xr-x  3 rgukt123 rgukt123  4096 Mar  2 17:49 Pictures
+drwxr-xr-x  2 rgukt123 rgukt123  4096 Feb 27 12:54 Public
+-rw-rw-r--  1 rgukt123 rgukt123 26290 Mar  2 18:39 R180610
+drwx------  3 rgukt123 rgukt123  4096 Feb 28 20:09 snap
+-rw-rw-r--  1 rgukt123 rgukt123   162 Mar  2 16:52 sr1.txt
+-rw-rw-r--  1 rgukt123 rgukt123   127 Mar  2 16:49 sr.txt
+drwxr-xr-x  2 rgukt123 rgukt123  4096 Feb 27 12:54 Templates
+-rw-rw-r--  1 rgukt123 rgukt123   303 Mar  2 18:30 typescript
+-rw-rw-r--  1 rgukt123 rgukt123   801 Mar  1 21:40 Untitled.ipynb
+drwxr-xr-x  3 rgukt123 rgukt123  4096 Feb 27 13:53 Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ umask
+0002
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ umask 543
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ umask
+0543
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ mkdir one
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ umask
+0543
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -lh
+total 124K
+drwxrwxr-x  4 rgukt123 rgukt123 4.0K Mar  2 16:18 cse
+-rw-rw-r--  1 rgukt123 rgukt123   95 Mar  2 18:37 cut3.txt
+-rw-rw-r--  1 rgukt123 rgukt123   63 Mar  2 18:32 cut.txt
+drwxr-xr-x 13 rgukt123 rgukt123 4.0K Mar  1 21:43 Desktop
+drwxr-xr-x  2 rgukt123 rgukt123 4.0K Feb 27 12:54 Documents
+drwxr-xr-x  3 rgukt123 rgukt123 4.0K Mar  1 15:10 Downloads
+drwxrwxr-x  2 rgukt123 rgukt123 4.0K Mar  2 16:19 ece
+-rw-rw-r--  1 rgukt123 rgukt123   12 Mar  2 16:17 f4
+-rw-rw-r--  1 rgukt123 rgukt123   15 Mar  2 16:22 f4~
+-rw-rw-r--  1 rgukt123 rgukt123   12 Mar  2 16:23 f5
+drwxrwxr-x  2 rgukt123 rgukt123 4.0K Mar  2 15:59 move
+drwxr-xr-x  2 rgukt123 rgukt123 4.0K Feb 27 12:54 Music
+d-w--wxr--  2 rgukt123 rgukt123 4.0K Mar  2 18:57 one
+drwxr-xr-x  3 rgukt123 rgukt123 4.0K Mar  2 17:49 Pictures
+drwxr-xr-x  2 rgukt123 rgukt123 4.0K Feb 27 12:54 Public
+-rw-rw-r--  1 rgukt123 rgukt123  30K Mar  2 18:50 R180610
+drwx------  3 rgukt123 rgukt123 4.0K Feb 28 20:09 snap
+-rw-rw-r--  1 rgukt123 rgukt123  162 Mar  2 16:52 sr1.txt
+-rw-rw-r--  1 rgukt123 rgukt123  127 Mar  2 16:49 sr.txt
+drwxr-xr-x  2 rgukt123 rgukt123 4.0K Feb 27 12:54 Templates
+-rw-rw-r--  1 rgukt123 rgukt123  303 Mar  2 18:30 typescript
+-rw-rw-r--  1 rgukt123 rgukt123  801 Mar  1 21:40 Untitled.ipynb
+drwxr-xr-x  3 rgukt123 rgukt123 4.0K Feb 27 13:53 Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >umaks1
+hii
+hello
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -l umask1
+ls: cannot access 'umask1': No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -l umaks1
+--w--w-r-- 1 rgukt123 rgukt123 10 Mar  2 18:58 umaks1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ umask
+0543
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse       Desktop    ece  f5     one       R180610  sr.txt      umaks1
+cut3.txt  Documents  f4   move   Pictures  snap     Templates   Untitled.ipynb
+cut.txt   Downloads  f4~  Music  Public    sr1.txt  typescript  Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ rm umaks1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+cse       Desktop    ece  f5     one       R180610  sr.txt      Untitled.ipynb
+cut3.txt  Documents  f4   move   Pictures  snap     Templates   Videos
+cut.txt   Downloads  f4~  Music  Public    sr1.txt  typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ umask 421
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ umask
+0421
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >umask1
+hii
+hello
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -1 umask1
+umask1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -l umask1
+--w-r--rw- 1 rgukt123 rgukt123 10 Mar  2 19:02 umask1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ umask
+0421
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ umask 243
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -l
+total 132
+drwxrwxr-x  4 rgukt123 rgukt123  4096 Mar  2 16:18 cse
+-rw-rw-r--  1 rgukt123 rgukt123    95 Mar  2 18:37 cut3.txt
+-rw-rw-r--  1 rgukt123 rgukt123    63 Mar  2 18:32 cut.txt
+drwxr-xr-x 13 rgukt123 rgukt123  4096 Mar  1 21:43 Desktop
+drwxr-xr-x  2 rgukt123 rgukt123  4096 Feb 27 12:54 Documents
+drwxr-xr-x  3 rgukt123 rgukt123  4096 Mar  1 15:10 Downloads
+drwxrwxr-x  2 rgukt123 rgukt123  4096 Mar  2 16:19 ece
+-rw-rw-r--  1 rgukt123 rgukt123    12 Mar  2 16:17 f4
+-rw-rw-r--  1 rgukt123 rgukt123    15 Mar  2 16:22 f4~
+-rw-rw-r--  1 rgukt123 rgukt123    12 Mar  2 16:23 f5
+drwxrwxr-x  2 rgukt123 rgukt123  4096 Mar  2 15:59 move
+drwxr-xr-x  2 rgukt123 rgukt123  4096 Feb 27 12:54 Music
+d-w--wxr--  2 rgukt123 rgukt123  4096 Mar  2 18:57 one
+drwxr-xr-x  3 rgukt123 rgukt123  4096 Mar  2 17:49 Pictures
+drwxr-xr-x  2 rgukt123 rgukt123  4096 Feb 27 12:54 Public
+-rw-rw-r--  1 rgukt123 rgukt123 34482 Mar  2 18:59 R180610
+drwx------  3 rgukt123 rgukt123  4096 Feb 28 20:09 snap
+-rw-rw-r--  1 rgukt123 rgukt123   162 Mar  2 16:52 sr1.txt
+-rw-rw-r--  1 rgukt123 rgukt123   127 Mar  2 16:49 sr.txt
+drwxr-xr-x  2 rgukt123 rgukt123  4096 Feb 27 12:54 Templates
+-rw-rw-r--  1 rgukt123 rgukt123   303 Mar  2 18:30 typescript
+--w-r--rw-  1 rgukt123 rgukt123    10 Mar  2 19:02 umask1
+-rw-rw-r--  1 rgukt123 rgukt123   801 Mar  1 21:40 Untitled.ipynb
+drwxr-xr-x  3 rgukt123 rgukt123  4096 Feb 27 13:53 Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -l umask1
+--w-r--rw- 1 rgukt123 rgukt123 10 Mar  2 19:02 umask1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >no
+1
+2
+3
+4
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >state
+arunchal pradesh
+assam
+andhra pradesh
+bihar
+tamil nadu 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >capital
+itanagar
+dispur
+hyderabad
+patna
+chennai
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat no state capital
+1
+2
+3
+4
+arunchal pradesh
+assam
+andhra pradesh
+bihar
+tamil nadu
+itanagar
+dispur
+hyderabad
+patna
+chennai
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ paste no state capital
+1	arunchal pradesh	itanagar
+2	assam	dispur
+3	andhra pradesh	hyderabad
+4	bihar	patna
+	tamil nadu	chennai
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ paste -d "|" no state capital
+1|arunchal pradesh|itanagar
+2|assam|dispur
+3|andhra pradesh|hyderabad
+4|bihar|patna
+|tamil nadu|chennai
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ paste -d ":::" no state capital
+1:arunchal pradesh:itanagar
+2:assam:dispur
+3:andhra pradesh:hyderabad
+4:bihar:patna
+:tamil nadu:chennai
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ paste -d "|," no state capital
+1|arunchal pradesh,itanagar
+2|assam,dispur
+3|andhra pradesh,hyderabad
+4|bihar,patna
+|tamil nadu,chennai
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ paste -s no state capital
+1	2	3	4
+arunchal pradesh	assam	andhra pradesh	bihar	tamil nadu
+itanagar	dispur	hyderabad	patna	chennai
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ paste -s -d ":" no state capital
+1:2:3:4
+arunchal pradesh:assam:andhra pradesh:bihar:tamil nadu
+itanagar:dispur:hyderabad:patna:chennai
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ paste -v
+paste: invalid option -- 'v'
+Try 'paste --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ paste --v
+paste (GNU coreutils) 8.30
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by David M. Ihnat and David MacKenzie.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat capital | paste - -
+itanagar	dispur
+hyderabad	patna
+chennai	
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat capital | paste --
+itanagar
+dispur
+hyderabad
+patna
+chennai
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat capital | paste --
+itanagar
+dispur
+hyderabad
+patna
+chennai
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat capital | paste - -
+itanagar	dispur
+hyderabad	patna
+chennai	
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat - - - < capital
+itanagar
+dispur
+hyderabad
+patna
+chennai
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat  "" -f 1 | paste number
+cat: invalid option -- 'f'
+paste: numberTry 'cat --help' for more information.
+: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut  "" -f 1 | paste number
+paste: number: No such file or directory
+cut: '': No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ paste - - - < capital
+itanagar	dispur	hyderabad
+patna	chennai	
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut  -d " " -f 1 | paste number
+paste: number: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut  -d " " -f1 state | paste number
+paste: number: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut  -d " " -f 1 state | paste numberpaste: number: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut  -d " " -f 1 state | paste numberpaste: number: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat state
+arunchal pradesh
+assam
+andhra pradesh
+bihar
+tamil nadu
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut  -d " " -f 1 state | paste no
+1
+2
+3
+4
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut  -d " " -f 1 state | paste no -
+1	arunchal
+2	assam
+3	andhra
+4	bihar
+	tamil
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut  -d " " -f 1 state | paste - no 
+arunchal	1
+assam	2
+andhra	3
+bihar	4
+tamil	
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut  -d " " -f 2 state | paste - no 
+pradesh	1
+assam	2
+pradesh	3
+bihar	4
+nadu	
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cut  -d " " -f 1-2 state | paste - no 
+arunchal pradesh	1
+assam	2
+andhra pradesh	3
+bihar	4
+tamil nadu	
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >file1.txt
+1 srinu
+2 mohan
+3 ravi
+4 chandu
+5 balu
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >file2.txt
+1 101
+2 102
+3 103
+4 104
+5 105
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ join file1.txt file2.txt
+1 srinu 101
+2 mohan 102
+3 ravi 103
+4 chandu 104
+5 balu 105
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ join file1.txt file2.txt > newjoinfile.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ file.txt
+file.txt: command not found
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+capital   Documents  f5         newjoinfile.txt  R180610  Templates
+cse       Downloads  file1.txt  no               snap     typescript
+cut3.txt  ece        file2.txt  one              sr1.txt  umask1
+cut.txt   f4         move       Pictures         sr.txt   Untitled.ipynb
+Desktop   f4~        Music      Public           state    Videos
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ rm newjoinfile.txt
+rm: remove write-protected regular file 'newjoinfile.txt'? y
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+capital   Documents  f5         no        snap       typescript
+cse       Downloads  file1.txt  one       sr1.txt    umask1
+cut3.txt  ece        file2.txt  Pictures  sr.txt     Untitled.ipynb
+cut.txt   f4         move       Public    state      Videos
+Desktop   f4~        Music      R180610   Templates
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ join file1.txt file2.txt > newfile.txt
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat newfile.txt
+1 srinu 101
+2 mohan 102
+3 ravi 103
+4 chandu 104
+5 balu 105
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat  -a newfile.txt
+cat: invalid option -- 'a'
+Try 'cat --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ join file1.txt file2.txt -a 1
+1 srinu 101
+2 mohan 102
+3 ravi 103
+4 chandu 104
+5 balu 105
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ join file1.txt file2.txt -v 1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat newfile.txt
+1 srinu 101
+2 mohan 102
+3 ravi 103
+4 chandu 104
+5 balu 105
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ join file1.txt file2.txt -v 1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ join -1 2 -2 2 file1.txt file2.txt
+join: file1.txt:2: is not sorted: 2 mohan
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ join -1 file1.txt file2.txt
+join: invalid field number: ‘file1.txt’
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ join -l file1.txt file2.txt
+join: invalid option -- 'l'
+Try 'join --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ join -i file1.txt file2.txt
+1 srinu 101
+2 mohan 102
+3 ravi 103
+4 chandu 104
+5 balu 105
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ exit
+exit
+
+Script done on 2023-03-02 21:01:57+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-03-03 09:45:42+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tee c1
+hii
+hii
+hello
+hello
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat c1
+hii
+hello
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ tee c2 c3
+hii
+hii
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat c2
+hii
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat c3
+hii
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date
+Friday 03 March 2023 09:47:11 AM IST
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date + %D
+date: extra operand ‘%D’
+Try 'date --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%D
+03/03/23
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%m
+03
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%d
+03
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%Y
+2023
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%T
+09:48:38
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%S
+45
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%P
+am
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%r
+09:48:57 AM IST
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%H
+09
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ date +%M
+49
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cal
+     March 2023       
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 31     
+                      
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cal 1
+                             1
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5         1  2  3  4  5  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   6  7  8  9 10 11 12  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  13 14 15 16 17 18 19  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  20 21 22 23 24 25 26  
+23 24 25 26 27 28 29  27 28                 27 28 29 30 31        
+30 31                                                             
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2   1  2  3  4  5  6  7            1  2  3  4  
+ 3  4  5  6  7  8  9   8  9 10 11 12 13 14   5  6  7  8  9 10 11  
+10 11 12 13 14 15 16  15 16 17 18 19 20 21  12 13 14 15 16 17 18  
+17 18 19 20 21 22 23  22 23 24 25 26 27 28  19 20 21 22 23 24 25  
+24 25 26 27 28 29 30  29 30 31              26 27 28 29 30        
+                                                                  
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2      1  2  3  4  5  6               1  2  3  
+ 3  4  5  6  7  8  9   7  8  9 10 11 12 13   4  5  6  7  8  9 10  
+10 11 12 13 14 15 16  14 15 16 17 18 19 20  11 12 13 14 15 16 17  
+17 18 19 20 21 22 23  21 22 23 24 25 26 27  18 19 20 21 22 23 24  
+24 25 26 27 28 29 30  28 29 30 31           25 26 27 28 29 30     
+31                                                                
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5               1  2  3  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   4  5  6  7  8  9 10  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  11 12 13 14 15 16 17  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  18 19 20 21 22 23 24  
+23 24 25 26 27 28 29  27 28 29 30           25 26 27 28 29 30 31  
+30 31                                                             
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cal 20230
+cal: year `20230' not in range 1..9999
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cal 2023
+                            2023
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4            1  2  3  4  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   5  6  7  8  9 10 11  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  12 13 14 15 16 17 18  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  19 20 21 22 23 24 25  
+29 30 31              26 27 28              26 27 28 29 30 31     
+                                                                  
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1      1  2  3  4  5  6               1  2  3  
+ 2  3  4  5  6  7  8   7  8  9 10 11 12 13   4  5  6  7  8  9 10  
+ 9 10 11 12 13 14 15  14 15 16 17 18 19 20  11 12 13 14 15 16 17  
+16 17 18 19 20 21 22  21 22 23 24 25 26 27  18 19 20 21 22 23 24  
+23 24 25 26 27 28 29  28 29 30 31           25 26 27 28 29 30     
+30                                                                
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5                  1  2  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   3  4  5  6  7  8  9  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  10 11 12 13 14 15 16  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  17 18 19 20 21 22 23  
+23 24 25 26 27 28 29  27 28 29 30 31        24 25 26 27 28 29 30  
+30 31                                                             
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4                  1  2  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   3  4  5  6  7  8  9  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  10 11 12 13 14 15 16  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  17 18 19 20 21 22 23  
+29 30 31              26 27 28 29 30        24 25 26 27 28 29 30  
+                                            31                    
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cal 2 2020
+   February 2020      
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28 29  
+                      
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cal 10 1999
+    October 1999      
+Su Mo Tu We Th Fr Sa  
+                1  2  
+ 3  4  5  6  7  8  9  
+10 11 12 13 14 15 16  
+17 18 19 20 21 22 23  
+24 25 26 27 28 29 30  
+31                    
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+c1       cut3.txt   ece        file2.txt    Public   state           Videos
+c2       cut.txt    f4         move         R180610  Templates
+c3       Desktop    f4~        Music        snap     typescript
+capital  Documents  f5         newfile.txt  sr1.txt  umask1
+cse      Downloads  file1.txt  Pictures     sr.txt   Untitled.ipynb
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat sr1.txt
+hii hello
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+the types of vehicles
+like
+honda
+splender
+cd 100
+rx-100
+pulser
+xl-100
+tvs
+etc
+D
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ sort sr1.txt
+cd 100
+D
+etc
+hii hello
+honda
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+like
+pulser
+rx-100
+splender
+the types of vehicles
+tvs
+xl-100
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ sort -r sr1.txt
+xl-100
+tvs
+the types of vehicles
+splender
+rx-100
+pulser
+like
+i am going write about
+i am from sr1.txt to count words,char,lines..etc
+honda
+hii hello
+etc
+D
+cd 100
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ sort -n sr1.txt
+cd 100
+D
+etc
+hii hello
+honda
+i am from sr1.txt to count words,char,lines..etc
+i am going write about
+like
+pulser
+rx-100
+splender
+the types of vehicles
+tvs
+xl-100
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat ln1
+cat: ln1: No such file or directory
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >ln1
+hii
+hello
+i am nl1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat ln1
+hii
+hello
+i am nl1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ln ln1 ln3
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat ln3
+hii
+hello
+i am nl1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat ln1
+hii
+hello
+i am nl1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat >>ln1
+appending something to ln1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat ln1
+hii
+hello
+i am nl1
+appending something to ln1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ cat ln3
+hii
+hello
+i am nl1
+appending something to ln1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls- l ln1
+
+Command 'ls-' not found, did you mean:
+
+  command 'lsw' from deb suckless-tools (44-1)
+  command 'ls' from deb coreutils (8.30-3ubuntu2)
+  command 'lsm' from deb lsm (1.0.4-1)
+  command 'lsc' from deb livescript (1.6.0+dfsg-1)
+  command 'lsh' from deb lsh-client (2.1-12build3)
+
+Try: sudo apt install <deb name>
+
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+c1        cut.txt    f4~        move         snap        umask1
+c2        Desktop    f5         Music        sr1.txt     Untitled.ipynb
+c3        Documents  file1.txt  newfile.txt  sr.txt      Videos
+capital   Downloads  file2.txt  Pictures     state
+cse       ece        ln1        Public       Templates
+cut3.txt  f4         ln3        R180610      typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls -l ln1
+-rw-rw-r-- 2 rgukt123 rgukt123 46 Mar  3 09:54 ln1
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ln ln1 ln4
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ unlink ln4
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ ls
+c1        cut.txt    f4~        move         snap        umask1
+c2        Desktop    f5         Music        sr1.txt     Untitled.ipynb
+c3        Documents  file1.txt  newfile.txt  sr.txt      Videos
+capital   Downloads  file2.txt  Pictures     state
+cse       ece        ln1        Public       Templates
+cut3.txt  f4         ln3        R180610      typescript
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ unlink ln1 ln3
+unlink: extra operand ‘ln3’
+Try 'unlink --help' for more information.
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ exit
+exit
+
+Script done on 2023-03-03 09:57:46+05:30 [COMMAND_EXIT_CODE="1"]
+rgukt123@rgukt123-HP-245-G6-Notebook-PC:~$ 
+

@@ -1,0 +1,591 @@
+apiiit-rkv@localhost:~$ script
+Script started, file is typescript
+apiiit-rkv@localhost:~$ pwd
+/home/apiiit-rkv
+apiiit-rkv@localhost:~$ exit
+exit
+Script done, file is typescript
+apiiit-rkv@localhost:~$ cat typescript
+Script started on 2023-02-25 11:01:23+0530
+apiiit-rkv@localhost:~$ pwd
+/home/apiiit-rkv
+apiiit-rkv@localhost:~$ exit
+exit
+
+Script done on 2023-02-25 11:01:39+0530
+apiiit-rkv@localhost:~$ script -a srinu
+Script started, file is srinu
+script: cannot open srinu: Is a directory
+apiiit-rkv@localhost:~$ cat srinu
+cat: srinu: Is a directory
+apiiit-rkv@localhost:~$ script f1
+Script started, file is f1
+apiiit-rkv@localhost:~$ cat f1
+apiiit-rkv@localhost:~$ exit
+exit
+Script done, file is f1
+apiiit-rkv@localhost:~$ login
+login: Cannot possibly work without effective root
+apiiit-rkv@localhost:~$ sudo login
+[sudo] password for apiiit-rkv: 
+localhost login: srinu
+Password: 
+^Z
+[1]+  Stopped                 sudo login
+apiiit-rkv@localhost:~$ who
+apiiit-rkv :0           2023-02-25 10:58 (:0)
+apiiit-rkv@localhost:~$ whoami
+apiiit-rkv
+apiiit-rkv@localhost:~$ who -q
+apiiit-rkv
+# users=1
+apiiit-rkv@localhost:~$ who -u
+apiiit-rkv :0           2023-02-25 10:58   ?          1864 (:0)
+apiiit-rkv@localhost:~$ who -uH
+NAME     LINE         TIME             IDLE          PID COMMENT
+apiiit-rkv :0           2023-02-25 10:58   ?          1864 (:0)
+apiiit-rkv@localhost:~$ ls
+a                                           Templates
+apache-tomcat-10.0.27                       typescript
+apache-tomcat-10.0.27.zip                   Untitled10.ipynb
+bestfit.py                                  Untitled11.ipynb
+cse                                         Untitled12.ipynb
+Desktop                                     Untitled13.ipynb
+Documents                                   Untitled14.ipynb
+Downloads                                   Untitled15.ipynb
+eclipse                                     Untitled16.ipynb
+eclipse-workspace                           Untitled1.ipynb
+examples.desktop                            Untitled2.ipynb
+f1                                          Untitled3.ipynb
+hotel.sqlite                                Untitled4.ipynb
+Music                                       Untitled5.ipynb
+mysql-apt-config_0.8.11-1_all.deb           Untitled6.ipynb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar  Untitled7.ipynb
+NetBeansProjects                            Untitled8.ipynb
+Pictures                                    Untitled9.ipynb
+Public                                      Untitled.ipynb
+snap                                        venv
+srinu                                       Videos
+apiiit-rkv@localhost:~$ cat s1
+cat: s1: No such file or directory
+apiiit-rkv@localhost:~$ cat >s1
+hello
+apiiit-rkv@localhost:~$ cat s1
+hello
+apiiit-rkv@localhost:~$ cat s4.txt
+cat: s4.txt: No such file or directory
+apiiit-rkv@localhost:~$ cat >s4
+hello
+apiiit-rkv@localhost:~$ cat >s7
+hello
+apiiit-rkv@localhost:~$ cat >s2
+hii
+apiiit-rkv@localhost:~$ ls
+a                                           NetBeansProjects  Untitled15.ipynb
+apache-tomcat-10.0.27                       Pictures          Untitled16.ipynb
+apache-tomcat-10.0.27.zip                   Public            Untitled1.ipynb
+bestfit.py                                  s1                Untitled2.ipynb
+cse                                         s2                Untitled3.ipynb
+Desktop                                     s4                Untitled4.ipynb
+Documents                                   s7                Untitled5.ipynb
+Downloads                                   snap              Untitled6.ipynb
+eclipse                                     srinu             Untitled7.ipynb
+eclipse-workspace                           Templates         Untitled8.ipynb
+examples.desktop                            typescript        Untitled9.ipynb
+f1                                          Untitled10.ipynb  Untitled.ipynb
+hotel.sqlite                                Untitled11.ipynb  venv
+Music                                       Untitled12.ipynb  Videos
+mysql-apt-config_0.8.11-1_all.deb           Untitled13.ipynb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar  Untitled14.ipynb
+apiiit-rkv@localhost:~$ mv s1 s5
+apiiit-rkv@localhost:~$ cat s5
+hello
+apiiit-rkv@localhost:~$ cat s1
+cat: s1: No such file or directory
+apiiit-rkv@localhost:~$ mv s2 s5
+apiiit-rkv@localhost:~$ cat s5
+hii
+apiiit-rkv@localhost:~$ cat s2
+cat: s2: No such file or directory
+apiiit-rkv@localhost:~$ mv s5 s6
+apiiit-rkv@localhost:~$ ls
+a                                           srinu
+apache-tomcat-10.0.27                       Templates
+apache-tomcat-10.0.27.zip                   typescript
+bestfit.py                                  Untitled10.ipynb
+cse                                         Untitled11.ipynb
+Desktop                                     Untitled12.ipynb
+Documents                                   Untitled13.ipynb
+Downloads                                   Untitled14.ipynb
+eclipse                                     Untitled15.ipynb
+eclipse-workspace                           Untitled16.ipynb
+examples.desktop                            Untitled1.ipynb
+f1                                          Untitled2.ipynb
+hotel.sqlite                                Untitled3.ipynb
+Music                                       Untitled4.ipynb
+mysql-apt-config_0.8.11-1_all.deb           Untitled5.ipynb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar  Untitled6.ipynb
+NetBeansProjects                            Untitled7.ipynb
+Pictures                                    Untitled8.ipynb
+Public                                      Untitled9.ipynb
+s4                                          Untitled.ipynb
+s6                                          venv
+s7                                          Videos
+snap
+apiiit-rkv@localhost:~$ cat s6
+hii
+apiiit-rkv@localhost:~$ cat s5
+cat: s5: No such file or directory
+apiiit-rkv@localhost:~$ mkdir cse ece mec
+mkdir: cannot create directory ‘cse’: File exists
+apiiit-rkv@localhost:~$ mkdir cse1 ece1 mec1
+apiiit-rkv@localhost:~$ ls
+a                                           s6
+apache-tomcat-10.0.27                       s7
+apache-tomcat-10.0.27.zip                   snap
+bestfit.py                                  srinu
+cse                                         Templates
+cse1                                        typescript
+Desktop                                     Untitled10.ipynb
+Documents                                   Untitled11.ipynb
+Downloads                                   Untitled12.ipynb
+ece                                         Untitled13.ipynb
+ece1                                        Untitled14.ipynb
+eclipse                                     Untitled15.ipynb
+eclipse-workspace                           Untitled16.ipynb
+examples.desktop                            Untitled1.ipynb
+f1                                          Untitled2.ipynb
+hotel.sqlite                                Untitled3.ipynb
+mec                                         Untitled4.ipynb
+mec1                                        Untitled5.ipynb
+Music                                       Untitled6.ipynb
+mysql-apt-config_0.8.11-1_all.deb           Untitled7.ipynb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar  Untitled8.ipynb
+NetBeansProjects                            Untitled9.ipynb
+Pictures                                    Untitled.ipynb
+Public                                      venv
+s4                                          Videos
+apiiit-rkv@localhost:~$ cd cse1
+apiiit-rkv@localhost:~/cse1$ ls
+apiiit-rkv@localhost:~/cse1$ cd..
+cd..: command not found
+apiiit-rkv@localhost:~/cse1$ cd ..
+apiiit-rkv@localhost:~$ mv cse1 ece1
+apiiit-rkv@localhost:~$ ls
+a                                           s7
+apache-tomcat-10.0.27                       snap
+apache-tomcat-10.0.27.zip                   srinu
+bestfit.py                                  Templates
+cse                                         typescript
+Desktop                                     Untitled10.ipynb
+Documents                                   Untitled11.ipynb
+Downloads                                   Untitled12.ipynb
+ece                                         Untitled13.ipynb
+ece1                                        Untitled14.ipynb
+eclipse                                     Untitled15.ipynb
+eclipse-workspace                           Untitled16.ipynb
+examples.desktop                            Untitled1.ipynb
+f1                                          Untitled2.ipynb
+hotel.sqlite                                Untitled3.ipynb
+mec                                         Untitled4.ipynb
+mec1                                        Untitled5.ipynb
+Music                                       Untitled6.ipynb
+mysql-apt-config_0.8.11-1_all.deb           Untitled7.ipynb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar  Untitled8.ipynb
+NetBeansProjects                            Untitled9.ipynb
+Pictures                                    Untitled.ipynb
+Public                                      venv
+s4                                          Videos
+s6
+apiiit-rkv@localhost:~$ cd ece1
+apiiit-rkv@localhost:~/ece1$ ls
+cse1
+apiiit-rkv@localhost:~/ece1$ cd ..
+apiiit-rkv@localhost:~$ mkdir -p civil/mme/eee
+apiiit-rkv@localhost:~$ ls
+a                                           s6
+apache-tomcat-10.0.27                       s7
+apache-tomcat-10.0.27.zip                   snap
+bestfit.py                                  srinu
+civil                                       Templates
+cse                                         typescript
+Desktop                                     Untitled10.ipynb
+Documents                                   Untitled11.ipynb
+Downloads                                   Untitled12.ipynb
+ece                                         Untitled13.ipynb
+ece1                                        Untitled14.ipynb
+eclipse                                     Untitled15.ipynb
+eclipse-workspace                           Untitled16.ipynb
+examples.desktop                            Untitled1.ipynb
+f1                                          Untitled2.ipynb
+hotel.sqlite                                Untitled3.ipynb
+mec                                         Untitled4.ipynb
+mec1                                        Untitled5.ipynb
+Music                                       Untitled6.ipynb
+mysql-apt-config_0.8.11-1_all.deb           Untitled7.ipynb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar  Untitled8.ipynb
+NetBeansProjects                            Untitled9.ipynb
+Pictures                                    Untitled.ipynb
+Public                                      venv
+s4                                          Videos
+apiiit-rkv@localhost:~$ cd civil
+apiiit-rkv@localhost:~/civil$ ls
+mme
+apiiit-rkv@localhost:~/civil$ cd mme
+apiiit-rkv@localhost:~/civil/mme$ ls
+eee
+apiiit-rkv@localhost:~/civil/mme$ cd ..
+apiiit-rkv@localhost:~/civil$ cd ..
+apiiit-rkv@localhost:~$ mv civil ece
+apiiit-rkv@localhost:~$ cd ece
+apiiit-rkv@localhost:~/ece$ ls
+civil
+apiiit-rkv@localhost:~/ece$ mv civil ece1
+apiiit-rkv@localhost:~/ece$ cd ece1
+apiiit-rkv@localhost:~/ece/ece1$ ls
+mme
+apiiit-rkv@localhost:~/ece/ece1$ cd ..
+apiiit-rkv@localhost:~/ece$ cd ..
+apiiit-rkv@localhost:~$ ls
+a                                           s7
+apache-tomcat-10.0.27                       snap
+apache-tomcat-10.0.27.zip                   srinu
+bestfit.py                                  Templates
+cse                                         typescript
+Desktop                                     Untitled10.ipynb
+Documents                                   Untitled11.ipynb
+Downloads                                   Untitled12.ipynb
+ece                                         Untitled13.ipynb
+ece1                                        Untitled14.ipynb
+eclipse                                     Untitled15.ipynb
+eclipse-workspace                           Untitled16.ipynb
+examples.desktop                            Untitled1.ipynb
+f1                                          Untitled2.ipynb
+hotel.sqlite                                Untitled3.ipynb
+mec                                         Untitled4.ipynb
+mec1                                        Untitled5.ipynb
+Music                                       Untitled6.ipynb
+mysql-apt-config_0.8.11-1_all.deb           Untitled7.ipynb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar  Untitled8.ipynb
+NetBeansProjects                            Untitled9.ipynb
+Pictures                                    Untitled.ipynb
+Public                                      venv
+s4                                          Videos
+s6
+apiiit-rkv@localhost:~$ cd ece1
+apiiit-rkv@localhost:~/ece1$ ls
+cse1
+apiiit-rkv@localhost:~/ece1$ cd ..
+apiiit-rkv@localhost:~$ mv ece ece1
+apiiit-rkv@localhost:~$ cd ece1
+apiiit-rkv@localhost:~/ece1$ ls
+cse1  ece
+apiiit-rkv@localhost:~/ece1$ cd ece
+apiiit-rkv@localhost:~/ece1/ece$ ls
+ece1
+apiiit-rkv@localhost:~/ece1/ece$ cd ..
+apiiit-rkv@localhost:~/ece1$ cd ..
+apiiit-rkv@localhost:~$ mv s5 ece1
+mv: cannot stat 's5': No such file or directory
+apiiit-rkv@localhost:~$ ls
+a                                           s7
+apache-tomcat-10.0.27                       snap
+apache-tomcat-10.0.27.zip                   srinu
+bestfit.py                                  Templates
+cse                                         typescript
+Desktop                                     Untitled10.ipynb
+Documents                                   Untitled11.ipynb
+Downloads                                   Untitled12.ipynb
+ece1                                        Untitled13.ipynb
+eclipse                                     Untitled14.ipynb
+eclipse-workspace                           Untitled15.ipynb
+examples.desktop                            Untitled16.ipynb
+f1                                          Untitled1.ipynb
+hotel.sqlite                                Untitled2.ipynb
+mec                                         Untitled3.ipynb
+mec1                                        Untitled4.ipynb
+Music                                       Untitled5.ipynb
+mysql-apt-config_0.8.11-1_all.deb           Untitled6.ipynb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar  Untitled7.ipynb
+NetBeansProjects                            Untitled8.ipynb
+Pictures                                    Untitled9.ipynb
+Public                                      Untitled.ipynb
+s4                                          venv
+s6                                          Videos
+apiiit-rkv@localhost:~$ mv s6 ece1
+apiiit-rkv@localhost:~$ cd ece1
+apiiit-rkv@localhost:~/ece1$ ls
+cse1  ece  s6
+apiiit-rkv@localhost:~/ece1$ cd ..
+apiiit-rkv@localhost:~$ ls
+a                                           snap
+apache-tomcat-10.0.27                       srinu
+apache-tomcat-10.0.27.zip                   Templates
+bestfit.py                                  typescript
+cse                                         Untitled10.ipynb
+Desktop                                     Untitled11.ipynb
+Documents                                   Untitled12.ipynb
+Downloads                                   Untitled13.ipynb
+ece1                                        Untitled14.ipynb
+eclipse                                     Untitled15.ipynb
+eclipse-workspace                           Untitled16.ipynb
+examples.desktop                            Untitled1.ipynb
+f1                                          Untitled2.ipynb
+hotel.sqlite                                Untitled3.ipynb
+mec                                         Untitled4.ipynb
+mec1                                        Untitled5.ipynb
+Music                                       Untitled6.ipynb
+mysql-apt-config_0.8.11-1_all.deb           Untitled7.ipynb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar  Untitled8.ipynb
+NetBeansProjects                            Untitled9.ipynb
+Pictures                                    Untitled.ipynb
+Public                                      venv
+s4                                          Videos
+s7
+apiiit-rkv@localhost:~$ cat >f1
+hello
+apiiit-rkv@localhost:~$ cat >f2
+hii
+apiiit-rkv@localhost:~$ cat f1
+hello
+apiiit-rkv@localhost:~$ cat f2
+hii
+apiiit-rkv@localhost:~$ cp f1 f5
+apiiit-rkv@localhost:~$ cat f5
+hello
+apiiit-rkv@localhost:~$ cat f1
+hello
+apiiit-rkv@localhost:~$ cp f1 f2 f3 ece1
+cp: cannot stat 'f3': No such file or directory
+apiiit-rkv@localhost:~$ cp f1 f2 f5 ece1
+apiiit-rkv@localhost:~$ ece1
+ece1: command not found
+apiiit-rkv@localhost:~$ cd ece1
+apiiit-rkv@localhost:~/ece1$ ls
+cse1  ece  f1  f2  f5  s6
+apiiit-rkv@localhost:~/ece1$ cd ..
+apiiit-rkv@localhost:~$ cat f1
+hello
+apiiit-rkv@localhost:~$ cat f2
+hii
+apiiit-rkv@localhost:~$ cat f5
+hello
+apiiit-rkv@localhost:~$ cp ece1 mec1
+cp: -r not specified; omitting directory 'ece1'
+apiiit-rkv@localhost:~$ cp -r ece1 mec1
+apiiit-rkv@localhost:~$ ls
+a                                           s7
+apache-tomcat-10.0.27                       snap
+apache-tomcat-10.0.27.zip                   srinu
+bestfit.py                                  Templates
+cse                                         typescript
+Desktop                                     Untitled10.ipynb
+Documents                                   Untitled11.ipynb
+Downloads                                   Untitled12.ipynb
+ece1                                        Untitled13.ipynb
+eclipse                                     Untitled14.ipynb
+eclipse-workspace                           Untitled15.ipynb
+examples.desktop                            Untitled16.ipynb
+f1                                          Untitled1.ipynb
+f2                                          Untitled2.ipynb
+f5                                          Untitled3.ipynb
+hotel.sqlite                                Untitled4.ipynb
+mec                                         Untitled5.ipynb
+mec1                                        Untitled6.ipynb
+Music                                       Untitled7.ipynb
+mysql-apt-config_0.8.11-1_all.deb           Untitled8.ipynb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar  Untitled9.ipynb
+NetBeansProjects                            Untitled.ipynb
+Pictures                                    venv
+Public                                      Videos
+s4
+apiiit-rkv@localhost:~$ cd mec1
+apiiit-rkv@localhost:~/mec1$ ls
+ece1
+apiiit-rkv@localhost:~/mec1$ cd ece1
+apiiit-rkv@localhost:~/mec1/ece1$ ls
+cse1  ece  f1  f2  f5  s6
+apiiit-rkv@localhost:~/mec1/ece1$ cd ece
+apiiit-rkv@localhost:~/mec1/ece1/ece$ ls
+ece1
+apiiit-rkv@localhost:~/mec1/ece1/ece$ cd ece1
+apiiit-rkv@localhost:~/mec1/ece1/ece/ece1$ ls
+mme
+apiiit-rkv@localhost:~/mec1/ece1/ece/ece1$ cd mme
+apiiit-rkv@localhost:~/mec1/ece1/ece/ece1/mme$ ls
+eee
+apiiit-rkv@localhost:~/mec1/ece1/ece/ece1/mme$ cd eee
+apiiit-rkv@localhost:~/mec1/ece1/ece/ece1/mme/eee$ ls
+apiiit-rkv@localhost:~/mec1/ece1/ece/ece1/mme/eee$ cd ..
+apiiit-rkv@localhost:~/mec1/ece1/ece/ece1/mme$ cd ..
+apiiit-rkv@localhost:~/mec1/ece1/ece/ece1$ cd ..
+apiiit-rkv@localhost:~/mec1/ece1/ece$ cd ..
+apiiit-rkv@localhost:~/mec1/ece1$ cd ..
+apiiit-rkv@localhost:~/mec1$ cd ..
+apiiit-rkv@localhost:~$ mv -i f1 f2
+mv: overwrite 'f2'? yes
+apiiit-rkv@localhost:~$ cat f1
+cat: f1: No such file or directory
+apiiit-rkv@localhost:~$ cat f2
+hello
+apiiit-rkv@localhost:~$ mv -f f2 f3
+apiiit-rkv@localhost:~$ cat f2
+cat: f2: No such file or directory
+apiiit-rkv@localhost:~$ cat f3
+hello
+apiiit-rkv@localhost:~$ cat >f4
+unix is os
+apiiit-rkv@localhost:~$ cat f4
+unix is os
+apiiit-rkv@localhost:~$ mv -b f3 f4
+apiiit-rkv@localhost:~$ cat f4
+hello
+apiiit-rkv@localhost:~$ cat f3
+cat: f3: No such file or directory
+apiiit-rkv@localhost:~$ ls
+a                                           s7
+apache-tomcat-10.0.27                       snap
+apache-tomcat-10.0.27.zip                   srinu
+bestfit.py                                  Templates
+cse                                         typescript
+Desktop                                     Untitled10.ipynb
+Documents                                   Untitled11.ipynb
+Downloads                                   Untitled12.ipynb
+ece1                                        Untitled13.ipynb
+eclipse                                     Untitled14.ipynb
+eclipse-workspace                           Untitled15.ipynb
+examples.desktop                            Untitled16.ipynb
+f4                                          Untitled1.ipynb
+f4~                                         Untitled2.ipynb
+f5                                          Untitled3.ipynb
+hotel.sqlite                                Untitled4.ipynb
+mec                                         Untitled5.ipynb
+mec1                                        Untitled6.ipynb
+Music                                       Untitled7.ipynb
+mysql-apt-config_0.8.11-1_all.deb           Untitled8.ipynb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar  Untitled9.ipynb
+NetBeansProjects                            Untitled.ipynb
+Pictures                                    venv
+Public                                      Videos
+s4
+apiiit-rkv@localhost:~$ cat f4~
+unix is os
+apiiit-rkv@localhost:~$ cat f3
+cat: f3: No such file or directory
+apiiit-rkv@localhost:~$ cat >f3
+i am good
+apiiit-rkv@localhost:~$ cat f3
+i am good
+apiiit-rkv@localhost:~$ cat f5
+hello
+apiiit-rkv@localhost:~$ cat f4
+hello
+apiiit-rkv@localhost:~$ mv -n f4 f5
+apiiit-rkv@localhost:~$ cat f4
+hello
+apiiit-rkv@localhost:~$ cat f5
+hello
+apiiit-rkv@localhost:~$ mv f4 f5
+apiiit-rkv@localhost:~$ cat f5
+hello
+apiiit-rkv@localhost:~$ cat f4
+cat: f4: No such file or directory
+apiiit-rkv@localhost:~$ mv -n f3 f5
+apiiit-rkv@localhost:~$ cat f3
+i am good
+apiiit-rkv@localhost:~$ cat f5
+hello
+apiiit-rkv@localhost:~$ cp -i f5 f6
+apiiit-rkv@localhost:~$ cat f5
+hello
+apiiit-rkv@localhost:~$ cat f6
+hello
+apiiit-rkv@localhost:~$ ls
+a                                           s4
+apache-tomcat-10.0.27                       s7
+apache-tomcat-10.0.27.zip                   snap
+bestfit.py                                  srinu
+cse                                         Templates
+Desktop                                     typescript
+Documents                                   Untitled10.ipynb
+Downloads                                   Untitled11.ipynb
+ece1                                        Untitled12.ipynb
+eclipse                                     Untitled13.ipynb
+eclipse-workspace                           Untitled14.ipynb
+examples.desktop                            Untitled15.ipynb
+f3                                          Untitled16.ipynb
+f4~                                         Untitled1.ipynb
+f5                                          Untitled2.ipynb
+f6                                          Untitled3.ipynb
+hotel.sqlite                                Untitled4.ipynb
+mec                                         Untitled5.ipynb
+mec1                                        Untitled6.ipynb
+Music                                       Untitled7.ipynb
+mysql-apt-config_0.8.11-1_all.deb           Untitled8.ipynb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar  Untitled9.ipynb
+NetBeansProjects                            Untitled.ipynb
+Pictures                                    venv
+Public                                      Videos
+apiiit-rkv@localhost:~$ ls -r
+Videos           Untitled3.ipynb   Untitled10.ipynb  NetBeansProjects                            f4~                cse
+venv             Untitled2.ipynb   typescript        mysql-connector-java-8.0.29-tidb-1.0.2.jar  f3                 bestfit.py
+Untitled.ipynb   Untitled1.ipynb   Templates         mysql-apt-config_0.8.11-1_all.deb           examples.desktop   apache-tomcat-10.0.27.zip
+Untitled9.ipynb  Untitled16.ipynb  srinu             Music                                       eclipse-workspace  apache-tomcat-10.0.27
+Untitled8.ipynb  Untitled15.ipynb  snap              mec1                                        eclipse            a
+Untitled7.ipynb  Untitled14.ipynb  s7                mec                                         ece1
+Untitled6.ipynb  Untitled13.ipynb  s4                hotel.sqlite                                Downloads
+Untitled5.ipynb  Untitled12.ipynb  Public            f6                                          Documents
+Untitled4.ipynb  Untitled11.ipynb  Pictures          f5                                          Desktop
+apiiit-rkv@localhost:~$ ls -1
+a
+apache-tomcat-10.0.27
+apache-tomcat-10.0.27.zip
+bestfit.py
+cse
+Desktop
+Documents
+Downloads
+ece1
+eclipse
+eclipse-workspace
+examples.desktop
+f3
+f4~
+f5
+f6
+hotel.sqlite
+mec
+mec1
+Music
+mysql-apt-config_0.8.11-1_all.deb
+mysql-connector-java-8.0.29-tidb-1.0.2.jar
+NetBeansProjects
+Pictures
+Public
+s4
+s7
+snap
+srinu
+Templates
+typescript
+Untitled10.ipynb
+Untitled11.ipynb
+Untitled12.ipynb
+Untitled13.ipynb
+Untitled14.ipynb
+Untitled15.ipynb
+Untitled16.ipynb
+Untitled1.ipynb
+Untitled2.ipynb
+Untitled3.ipynb
+Untitled4.ipynb
+Untitled5.ipynb
+Untitled6.ipynb
+Untitled7.ipynb
+Untitled8.ipynb
+Untitled9.ipynb
+Untitled.ipynb
+venv
+Videos
+apiiit-rkv@localhost:~$ 
+

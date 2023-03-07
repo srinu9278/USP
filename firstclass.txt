@@ -1,0 +1,349 @@
+apiiit-rkv@localhost:~$ ls
+apache-tomcat-10.0.27      Music
+apache-tomcat-10.0.27.zip  mysql-apt-config_0.8.11-1_all.deb
+bestfit.py                 mysql-connector-java-8.0.29-tidb-1.0.2.jar
+Desktop                    NetBeansProjects
+Documents                  Pictures
+Downloads                  Public
+eclipse                    snap
+eclipse-workspace          Templates
+examples.desktop           Videos
+hotel.sqlite
+apiiit-rkv@localhost:~$ mkdir cse
+apiiit-rkv@localhost:~$ ls
+apache-tomcat-10.0.27      hotel.sqlite
+apache-tomcat-10.0.27.zip  Music
+bestfit.py                 mysql-apt-config_0.8.11-1_all.deb
+cse                        mysql-connector-java-8.0.29-tidb-1.0.2.jar
+Desktop                    NetBeansProjects
+Documents                  Pictures
+Downloads                  Public
+eclipse                    snap
+eclipse-workspace          Templates
+examples.desktop           Videos
+apiiit-rkv@localhost:~$ mkdir -p a/b/c
+apiiit-rkv@localhost:~$ ls
+a                          hotel.sqlite
+apache-tomcat-10.0.27      Music
+apache-tomcat-10.0.27.zip  mysql-apt-config_0.8.11-1_all.deb
+bestfit.py                 mysql-connector-java-8.0.29-tidb-1.0.2.jar
+cse                        NetBeansProjects
+Desktop                    Pictures
+Documents                  Public
+Downloads                  snap
+eclipse                    Templates
+eclipse-workspace          Videos
+examples.desktop
+apiiit-rkv@localhost:~$ rmdir a
+rmdir: failed to remove 'a': Directory not empty
+apiiit-rkv@localhost:~$ cd cse
+apiiit-rkv@localhost:~/cse$ touch 1.txt
+apiiit-rkv@localhost:~/cse$ ls
+1.txt
+apiiit-rkv@localhost:~/cse$ cd ~
+apiiit-rkv@localhost:~$ ls
+a                          bestfit.py  Documents  eclipse-workspace  Music                                       NetBeansProjects  snap
+apache-tomcat-10.0.27      cse         Downloads  examples.desktop   mysql-apt-config_0.8.11-1_all.deb           Pictures          Templates
+apache-tomcat-10.0.27.zip  Desktop     eclipse    hotel.sqlite       mysql-connector-java-8.0.29-tidb-1.0.2.jar  Public            Videos
+apiiit-rkv@localhost:~$ cd .
+apiiit-rkv@localhost:~$ cd ..
+apiiit-rkv@localhost:/home$ cd ..
+apiiit-rkv@localhost:/$ cd ..
+apiiit-rkv@localhost:/$ cd ~
+apiiit-rkv@localhost:~$ rmdir cse
+rmdir: failed to remove 'cse': Directory not empty
+apiiit-rkv@localhost:~$ mkdir cse1
+apiiit-rkv@localhost:~$ ls
+a                          cse        Downloads          hotel.sqlite                                NetBeansProjects  Templates
+apache-tomcat-10.0.27      cse1       eclipse            Music                                       Pictures          Videos
+apache-tomcat-10.0.27.zip  Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public
+bestfit.py                 Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap
+apiiit-rkv@localhost:~$ rmdir cse1
+apiiit-rkv@localhost:~$ ls
+a                          bestfit.py  Documents  eclipse-workspace  Music                                       NetBeansProjects  snap
+apache-tomcat-10.0.27      cse         Downloads  examples.desktop   mysql-apt-config_0.8.11-1_all.deb           Pictures          Templates
+apache-tomcat-10.0.27.zip  Desktop     eclipse    hotel.sqlite       mysql-connector-java-8.0.29-tidb-1.0.2.jar  Public            Videos
+apiiit-rkv@localhost:~$ mkdir 123
+apiiit-rkv@localhost:~$ rmdir 123
+apiiit-rkv@localhost:~$ ls
+a                          bestfit.py  Documents  eclipse-workspace  Music                                       NetBeansProjects  snap
+apache-tomcat-10.0.27      cse         Downloads  examples.desktop   mysql-apt-config_0.8.11-1_all.deb           Pictures          Templates
+apache-tomcat-10.0.27.zip  Desktop     eclipse    hotel.sqlite       mysql-connector-java-8.0.29-tidb-1.0.2.jar  Public            Videos
+apiiit-rkv@localhost:~$ mkdir 123
+apiiit-rkv@localhost:~$ ls
+123                        bestfit.py  Downloads          hotel.sqlite                                NetBeansProjects  Templates
+a                          cse         eclipse            Music                                       Pictures          Videos
+apache-tomcat-10.0.27      Desktop     eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public
+apache-tomcat-10.0.27.zip  Documents   examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap
+apiiit-rkv@localhost:~$ rmdir 123
+apiiit-rkv@localhost:~$ ls
+a                          bestfit.py  Documents  eclipse-workspace  Music                                       NetBeansProjects  snap
+apache-tomcat-10.0.27      cse         Downloads  examples.desktop   mysql-apt-config_0.8.11-1_all.deb           Pictures          Templates
+apache-tomcat-10.0.27.zip  Desktop     eclipse    hotel.sqlite       mysql-connector-java-8.0.29-tidb-1.0.2.jar  Public            Videos
+apiiit-rkv@localhost:~$ mkdir 1 2 3
+apiiit-rkv@localhost:~$ ls
+1  a                          bestfit.py  Documents  eclipse-workspace  Music                                       NetBeansProjects  snap
+2  apache-tomcat-10.0.27      cse         Downloads  examples.desktop   mysql-apt-config_0.8.11-1_all.deb           Pictures          Templates
+3  apache-tomcat-10.0.27.zip  Desktop     eclipse    hotel.sqlite       mysql-connector-java-8.0.29-tidb-1.0.2.jar  Public            Videos
+apiiit-rkv@localhost:~$ rmdir 1 2 3
+apiiit-rkv@localhost:~$ ls
+a                          bestfit.py  Documents  eclipse-workspace  Music                                       NetBeansProjects  snap
+apache-tomcat-10.0.27      cse         Downloads  examples.desktop   mysql-apt-config_0.8.11-1_all.deb           Pictures          Templates
+apache-tomcat-10.0.27.zip  Desktop     eclipse    hotel.sqlite       mysql-connector-java-8.0.29-tidb-1.0.2.jar  Public            Videos
+apiiit-rkv@localhost:~$ rmdir -i a
+rmdir: invalid option -- 'i'
+Try 'rmdir --help' for more information.
+apiiit-rkv@localhost:~$ rm +
+rm: cannot remove '+': No such file or directory
+apiiit-rkv@localhost:~$ rmdir --help
+Usage: rmdir [OPTION]... DIRECTORY...
+Remove the DIRECTORY(ies), if they are empty.
+
+      --ignore-fail-on-non-empty
+                  ignore each failure that is solely because a directory
+                    is non-empty
+  -p, --parents   remove DIRECTORY and its ancestors; e.g., 'rmdir -p a/b/c' is
+                    similar to 'rmdir a/b/c a/b a'
+  -v, --verbose   output a diagnostic for every directory processed
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/rmdir>
+or available locally via: info '(coreutils) rmdir invocation'
+apiiit-rkv@localhost:~$ rm 1 cse1
+rm: cannot remove '1': No such file or directory
+rm: cannot remove 'cse1': No such file or directory
+apiiit-rkv@localhost:~$ rm l cse1
+rm: cannot remove 'l': No such file or directory
+rm: cannot remove 'cse1': No such file or directory
+apiiit-rkv@localhost:~$ mkdir cse1
+apiiit-rkv@localhost:~$ rm l cse1
+rm: cannot remove 'l': No such file or directory
+rm: cannot remove 'cse1': Is a directory
+apiiit-rkv@localhost:~$ rmdir cse1
+apiiit-rkv@localhost:~$ ls
+a                          bestfit.py  Documents  eclipse-workspace  Music                                       NetBeansProjects  snap
+apache-tomcat-10.0.27      cse         Downloads  examples.desktop   mysql-apt-config_0.8.11-1_all.deb           Pictures          Templates
+apache-tomcat-10.0.27.zip  Desktop     eclipse    hotel.sqlite       mysql-connector-java-8.0.29-tidb-1.0.2.jar  Public            Videos
+apiiit-rkv@localhost:~$ rm a
+rm: cannot remove 'a': Is a directory
+apiiit-rkv@localhost:~$ rm -i cse1
+rm: cannot remove 'cse1': No such file or directory
+apiiit-rkv@localhost:~$ mkdir cse1
+apiiit-rkv@localhost:~$ rm -i cse1
+rm: cannot remove 'cse1': Is a directory
+apiiit-rkv@localhost:~$ ls
+a                          cse        Downloads          hotel.sqlite                                NetBeansProjects  Templates
+apache-tomcat-10.0.27      cse1       eclipse            Music                                       Pictures          Videos
+apache-tomcat-10.0.27.zip  Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public
+bestfit.py                 Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap
+apiiit-rkv@localhost:~$ rm a
+rm: cannot remove 'a': Is a directory
+apiiit-rkv@localhost:~$ rm a-i cse1
+rm: cannot remove 'a-i': No such file or directory
+rm: cannot remove 'cse1': Is a directory
+apiiit-rkv@localhost:~$ rmdir cse1
+apiiit-rkv@localhost:~$ touch cse1
+apiiit-rkv@localhost:~$ ls
+a                          cse        Downloads          hotel.sqlite                                NetBeansProjects  Templates
+apache-tomcat-10.0.27      cse1       eclipse            Music                                       Pictures          Videos
+apache-tomcat-10.0.27.zip  Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public
+bestfit.py                 Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap
+apiiit-rkv@localhost:~$ rm a
+rm: cannot remove 'a': Is a directory
+apiiit-rkv@localhost:~$ rm -i cse1
+rm: remove regular empty file 'cse1'? y
+apiiit-rkv@localhost:~$ ls
+a                          bestfit.py  Documents  eclipse-workspace  Music                                       NetBeansProjects  snap
+apache-tomcat-10.0.27      cse         Downloads  examples.desktop   mysql-apt-config_0.8.11-1_all.deb           Pictures          Templates
+apache-tomcat-10.0.27.zip  Desktop     eclipse    hotel.sqlite       mysql-connector-java-8.0.29-tidb-1.0.2.jar  Public            Videos
+apiiit-rkv@localhost:~$ cd ~
+apiiit-rkv@localhost:~$ cd /
+apiiit-rkv@localhost:/$ cd .
+apiiit-rkv@localhost:/$ cd ..
+apiiit-rkv@localhost:/$ cd ..
+apiiit-rkv@localhost:/$ cd ~
+apiiit-rkv@localhost:~$ cd cse
+apiiit-rkv@localhost:~/cse$ cd ..
+apiiit-rkv@localhost:~$ cd ..
+apiiit-rkv@localhost:/home$ cd ..
+apiiit-rkv@localhost:/$ cd ..
+apiiit-rkv@localhost:/$ rm a
+rm: cannot remove 'a': No such file or directory
+apiiit-rkv@localhost:/$ rm a
+rm: cannot remove 'a': No such file or directory
+apiiit-rkv@localhost:/$  rm -r a
+rm: cannot remove 'a': No such file or directory
+apiiit-rkv@localhost:/$ ls
+bin   cdrom  etc   initrd.img      lib    lost+found  mnt  proc  run   snap  swapfile  tmp  var      vmlinuz.old
+boot  dev    home  initrd.img.old  lib64  media       opt  root  sbin  srv   sys       usr  vmlinuz
+apiiit-rkv@localhost:/$ mkdir -p a/b/c
+mkdir: cannot create directory ‘a’: Permission denied
+apiiit-rkv@localhost:/$ ls
+bin   cdrom  etc   initrd.img      lib    lost+found  mnt  proc  run   snap  swapfile  tmp  var      vmlinuz.old
+boot  dev    home  initrd.img.old  lib64  media       opt  root  sbin  srv   sys       usr  vmlinuz
+apiiit-rkv@localhost:/$ cd ~
+apiiit-rkv@localhost:~$ ls
+a                          cse        eclipse            Music                                       Pictures   Untitled1.ipynb
+apache-tomcat-10.0.27      Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public     Untitled.ipynb
+apache-tomcat-10.0.27.zip  Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap       Videos
+bestfit.py                 Downloads  hotel.sqlite       NetBeansProjects                            Templates
+apiiit-rkv@localhost:~$ rm -r a
+apiiit-rkv@localhost:~$ ls
+apache-tomcat-10.0.27      Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public           Untitled.ipynb
+apache-tomcat-10.0.27.zip  Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap             Videos
+bestfit.py                 Downloads  hotel.sqlite       NetBeansProjects                            Templates
+cse                        eclipse    Music              Pictures                                    Untitled1.ipynb
+apiiit-rkv@localhost:~$ mkdir cse2
+apiiit-rkv@localhost:~$ rm cse2
+rm: cannot remove 'cse2': Is a directory
+apiiit-rkv@localhost:~$ touch cse2.txt
+apiiit-rkv@localhost:~$ ls
+apache-tomcat-10.0.27      cse2.txt   eclipse-workspace                  mysql-connector-java-8.0.29-tidb-1.0.2.jar  Templates        Videos
+apache-tomcat-10.0.27.zip  Desktop    examples.desktop                   NetBeansProjects                            Untitled1.ipynb
+bestfit.py                 Documents  hotel.sqlite                       Pictures                                    Untitled2.ipynb
+cse                        Downloads  Music                              Public                                      Untitled3.ipynb
+cse2                       eclipse    mysql-apt-config_0.8.11-1_all.deb  snap                                        Untitled.ipynb
+apiiit-rkv@localhost:~$ rm cse2
+rm: cannot remove 'cse2': Is a directory
+apiiit-rkv@localhost:~$ rmdir cse2
+apiiit-rkv@localhost:~$ ls
+apache-tomcat-10.0.27      cse2.txt   eclipse            Music                                       Pictures   Untitled1.ipynb  Videos
+apache-tomcat-10.0.27.zip  Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public     Untitled2.ipynb
+bestfit.py                 Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap       Untitled3.ipynb
+cse                        Downloads  hotel.sqlite       NetBeansProjects                            Templates  Untitled.ipynb
+apiiit-rkv@localhost:~$ rmdir cse2.txt
+rmdir: failed to remove 'cse2.txt': Not a directory
+apiiit-rkv@localhost:~$ rm cse2.txt
+apiiit-rkv@localhost:~$ ls
+apache-tomcat-10.0.27      Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public           Untitled2.ipynb
+apache-tomcat-10.0.27.zip  Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap             Untitled3.ipynb
+bestfit.py                 Downloads  hotel.sqlite       NetBeansProjects                            Templates        Untitled.ipynb
+cse                        eclipse    Music              Pictures                                    Untitled1.ipynb  Videos
+apiiit-rkv@localhost:~$ mkdir cse4
+apiiit-rkv@localhost:~$ ls
+apache-tomcat-10.0.27      cse4       eclipse            Music                                       Pictures   Untitled1.ipynb  Videos
+apache-tomcat-10.0.27.zip  Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public     Untitled2.ipynb
+bestfit.py                 Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap       Untitled3.ipynb
+cse                        Downloads  hotel.sqlite       NetBeansProjects                            Templates  Untitled.ipynb
+apiiit-rkv@localhost:~$ rmdir cse4
+apiiit-rkv@localhost:~$ ls
+apache-tomcat-10.0.27      Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public           Untitled2.ipynb
+apache-tomcat-10.0.27.zip  Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap             Untitled3.ipynb
+bestfit.py                 Downloads  hotel.sqlite       NetBeansProjects                            Templates        Untitled.ipynb
+cse                        eclipse    Music              Pictures                                    Untitled1.ipynb  Videos
+apiiit-rkv@localhost:~$ rmdir a
+rmdir: failed to remove 'a': No such file or directory
+apiiit-rkv@localhost:~$ mkdir -p a/b/c
+apiiit-rkv@localhost:~$ ls
+a                          cse        eclipse            Music                                       Pictures   Untitled1.ipynb  Videos
+apache-tomcat-10.0.27      Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public     Untitled2.ipynb
+apache-tomcat-10.0.27.zip  Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap       Untitled3.ipynb
+bestfit.py                 Downloads  hotel.sqlite       NetBeansProjects                            Templates  Untitled.ipynb
+apiiit-rkv@localhost:~$ rmdir a
+rmdir: failed to remove 'a': Directory not empty
+apiiit-rkv@localhost:~$ cd cse
+apiiit-rkv@localhost:~/cse$ ls
+1.txt
+apiiit-rkv@localhost:~/cse$ mkdir seca
+apiiit-rkv@localhost:~/cse$ ls
+1.txt  seca
+apiiit-rkv@localhost:~/cse$ rmdir seca
+apiiit-rkv@localhost:~/cse$ ls
+1.txt
+apiiit-rkv@localhost:~/cse$ mkdir secb
+apiiit-rkv@localhost:~/cse$ ls
+1.txt  secb
+apiiit-rkv@localhost:~/cse$ cd ~
+apiiit-rkv@localhost:~$ cd cse/secb
+apiiit-rkv@localhost:~/cse/secb$ cd cse
+bash: cd: cse: No such file or directory
+apiiit-rkv@localhost:~/cse/secb$ cd ~
+apiiit-rkv@localhost:~$ cd cse
+apiiit-rkv@localhost:~/cse$ cd secb
+apiiit-rkv@localhost:~/cse/secb$ cd /
+apiiit-rkv@localhost:/$ cd ..
+apiiit-rkv@localhost:/$ cd `
+> bash: unexpected EOF while looking for matching ``'
+bash: syntax error: unexpected end of file
+apiiit-rkv@localhost:/$ cd ~
+apiiit-rkv@localhost:~$ cd ..
+apiiit-rkv@localhost:/home$ cd ..
+apiiit-rkv@localhost:/$ cd .
+apiiit-rkv@localhost:/$ cd ~
+apiiit-rkv@localhost:~$ pwd
+/home/apiiit-rkv
+apiiit-rkv@localhost:~$ cd ..
+apiiit-rkv@localhost:/home$ cd ..
+apiiit-rkv@localhost:/$ cd ..
+apiiit-rkv@localhost:/$ pwd
+/
+apiiit-rkv@localhost:/$ cd ~!
+bash: cd: ~!: No such file or directory
+apiiit-rkv@localhost:/$ cd ~
+apiiit-rkv@localhost:~$ pwd
+/home/apiiit-rkv
+apiiit-rkv@localhost:~$ cd /
+apiiit-rkv@localhost:/$ mkdir a
+mkdir: cannot create directory ‘a’: Permission denied
+apiiit-rkv@localhost:/$ cd 
+apiiit-rkv@localhost:~$ cd ~
+apiiit-rkv@localhost:~$ mkdir srinu
+apiiit-rkv@localhost:~$ ls
+a                          cse        eclipse            Music                                       Pictures  Templates        Untitled.ipynb
+apache-tomcat-10.0.27      Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public    Untitled1.ipynb  Videos
+apache-tomcat-10.0.27.zip  Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap      Untitled2.ipynb
+bestfit.py                 Downloads  hotel.sqlite       NetBeansProjects                            srinu     Untitled3.ipynb
+apiiit-rkv@localhost:~$ cd cse/secb
+apiiit-rkv@localhost:~/cse/secb$ mkdir secbb
+apiiit-rkv@localhost:~/cse/secb$ ls
+secbb
+apiiit-rkv@localhost:~/cse/secb$ touch srinu.txt
+apiiit-rkv@localhost:~/cse/secb$ ls
+secbb  srinu.txt
+apiiit-rkv@localhost:~/cse/secb$ cd secbb
+apiiit-rkv@localhost:~/cse/secb/secbb$ cd srinu.txt
+bash: cd: srinu.txt: No such file or directory
+apiiit-rkv@localhost:~/cse/secb/secbb$ cd secbb
+bash: cd: secbb: No such file or directory
+apiiit-rkv@localhost:~/cse/secb/secbb$ cd ..
+apiiit-rkv@localhost:~/cse/secb$ cd ..
+apiiit-rkv@localhost:~/cse$ cd ..
+apiiit-rkv@localhost:~$ cd ..
+apiiit-rkv@localhost:/home$ cd ..
+apiiit-rkv@localhost:/$ cd ..
+apiiit-rkv@localhost:/$ mkdir k
+mkdir: cannot create directory ‘k’: Permission denied
+apiiit-rkv@localhost:/$ cd ~
+apiiit-rkv@localhost:~$ mkdir k
+apiiit-rkv@localhost:~$ ls
+a                          Documents          k                                           Public           Untitled3.ipynb
+apache-tomcat-10.0.27      Downloads          Music                                       snap             Untitled.ipynb
+apache-tomcat-10.0.27.zip  eclipse            mysql-apt-config_0.8.11-1_all.deb           srinu            Videos
+bestfit.py                 eclipse-workspace  mysql-connector-java-8.0.29-tidb-1.0.2.jar  Templates
+cse                        examples.desktop   NetBeansProjects                            Untitled1.ipynb
+Desktop                    hotel.sqlite       Pictures                                    Untitled2.ipynb
+apiiit-rkv@localhost:~$ rmdir k
+apiiit-rkv@localhost:~$ ls
+a                          cse        eclipse            Music                                       Pictures  Templates        Untitled.ipynb
+apache-tomcat-10.0.27      Desktop    eclipse-workspace  mysql-apt-config_0.8.11-1_all.deb           Public    Untitled1.ipynb  Videos
+apache-tomcat-10.0.27.zip  Documents  examples.desktop   mysql-connector-java-8.0.29-tidb-1.0.2.jar  snap      Untitled2.ipynb
+bestfit.py                 Downloads  hotel.sqlite       NetBeansProjects                            srinu     Untitled3.ipynb
+apiiit-rkv@localhost:~$ rm srinu.txt
+rm: cannot remove 'srinu.txt': No such file or directory
+apiiit-rkv@localhost:~$ cd cse/secb/secbb
+apiiit-rkv@localhost:~/cse/secb/secbb$ rm srinu.txt
+rm: cannot remove 'srinu.txt': No such file or directory
+apiiit-rkv@localhost:~/cse/secb/secbb$ rm srinu.txt
+rm: cannot remove 'srinu.txt': No such file or directory
+apiiit-rkv@localhost:~/cse/secb/secbb$ cd ..
+apiiit-rkv@localhost:~/cse/secb$ rm srinu.txt
+apiiit-rkv@localhost:~/cse/secb$ ls
+secbb
+apiiit-rkv@localhost:~/cse/secb$ rm secbb
+rm: cannot remove 'secbb': Is a directory
+apiiit-rkv@localhost:~/cse/secb$ rmdir secbb
+apiiit-rkv@localhost:~/cse/secb$ ls
+apiiit-rkv@localhost:~/cse/secb$ 
+
